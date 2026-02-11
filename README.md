@@ -1,4 +1,4 @@
-# # ATLAS Derived Compression Analysis
+# ATLAS Derived Compression Analysis
 
 This repository focuses on addressing the critical data challenges posed by the upcoming High-Luminosity LHC (HL-LHC) upgrade. With expected data volumes increasing by an order of magnitude, traditional storage and I/O methods must be optimized to ensure analysis scalability.
 
