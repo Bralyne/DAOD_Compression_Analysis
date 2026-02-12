@@ -1,2 +1,0 @@
-AODtype,Cores,Algo,Processors,Level,Job_Throughput(events/ms),Job_Read_Throughput(events/ms),VMem_max_GB,RSS_max_GB,PSS_max_GB,DAOD_size_GB
-TTree,2,LZMA,1,1,0.0,3.74,0.04,0.31,0.51,0.0
