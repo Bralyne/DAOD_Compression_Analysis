@@ -20,7 +20,7 @@ As we prepare for the High-Luminosity LHC (HL-LHC), data volume is expected to i
 
 ## Core Objectives
 
-This project evaluates the performance impact of switching from the legacy TTree storage format (using LZMA compression) to the next generation RNTuple data format. While LZMA is the current ATLAS default for AOD files, its high CPU overhead poses challenges for HL-LHC data rates. We investigate whether RNTuple, combined with alternative lossless algorithms (such as ZSTD, Zlib and LZ4), can provide measurable benefits for DAOD (Derived Analysis Object Data) workflows. Given that major ATLAS production tools now support RNTuple, this study aims to quantify potential gains in I/O throughput and storage efficiency for end user analysis.
+This project evaluates the performance impact of switching from the legacy TTree storage format (using LZMA compression) to the next generation RNTuple data format.  We investigate whether RNTuple, combined with alternative lossless algorithms (such as ZSTD, Zlib and LZ4), can provide measurable benefits for DAOD (Derived Analysis Object Data) workflows. Given that major ATLAS production tools now support RNTuple, this study aims to quantify potential gains in I/O throughput and storage efficiency for end user analysis.
 
 <br>
 
@@ -65,13 +65,13 @@ $$Job_{Throughput} = \frac{Events_{total}}{Loop_time}$$
 
 ## Setup
 
-This setup is built as a modular pipeline consisting of three primary nodes. Each node represents a specific stage of the analysis process.
+This setup is built as a modular pipeline consisting of three primary modes. Each node represents a specific stage of the analysis process.
 
-    - ** The Collection Node (run_collect) :** This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the athena environment and automatically extracts real-time metrics like Throughput and Memory.
+    - ** The Collection Mode (run_collect) :** This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the athena environment and automatically extracts real-time metrics like Throughput and Memory.
     
-    - ** The Fluctuation Node (fluctuation): ** this node ensures the data you collected is actually scientifically stable with no noise. It reads the raw results from the Collection Node and performs statistical validation by calculating the Mean, Standard Deviation percentage. If the results fluctuate by more than 5%, this node flags the data as unstable.
+    - ** The Fluctuation Mode (fluctuation): ** this node ensures the data you collected is actually scientifically stable with no noise. It reads the raw results from the Collection Node and performs statistical validation by calculating the Mean, Standard Deviation percentage. If the results fluctuate by more than 5%, this node flags the data as unstable.
     
-    - The Plotting Node (plot): This turns numbers into insights. It shows the Visualization of the performance comparison between formats (RNTuple vs. TTree) and generates PDF/PNG graphs showing performance trends and error bars derived from the Fluctuation Node.
+    - The Plotting Mode (plot): This turns numbers into insights. It shows the Visualization of the performance comparison between formats (RNTuple vs. TTree) and generates PDF/PNG graphs showing performance trends and error bars derived from the Fluctuation Node.
     
 
 
