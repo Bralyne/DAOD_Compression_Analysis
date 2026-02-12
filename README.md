@@ -67,19 +67,19 @@ $$Job_{Throughput} = \frac{Events_{total}}{Loop_{time}}$$
 
 This setup is built as a modular pipeline consisting of three primary modes. Each node represents a specific stage of the analysis process.
 
-    - ** The Collection Mode (run_collect): This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the Athena environment and automatically extracts real-time metrics like Throughput and Memory into CSV files, saving them in workspaces/project_name/raw_metrics.csv.
+    - **The Collection Mode (run_collect):** This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the Athena environment and automatically extracts real-time metrics like Throughput and Memory into CSV files, saving them in workspaces/project_name/raw_metrics.csv.
     
-    - ** The Fluctuation Mode (fluctuation): This mode ensures the data you collected is statistically stable and free from server noise. It reads the results from the Collection Node and performs validation by calculating the Mean and Standard Deviation percentage. If the results fluctuate by more than 5%, the data is flagged as unstable. It saves a summary in workspaces/fluctuation.csv and appends the validated data to the master file: workspaces/All_Compression_Algo_metrics.csv.
+    - **The Fluctuation Mode (fluctuation):** This mode ensures the data you collected is statistically stable and free from server noise. It reads the results from the Collection Node and performs validation by calculating the Mean and Standard Deviation percentage. If the results fluctuate by more than 5%, the data is flagged as unstable. It saves a summary in workspaces/fluctuation.csv and appends the validated data to the master file: workspaces/All_Compression_Algo_metrics.csv.
     
-    - The Plotting Mode (plot): This turns numbers into insights. it visualizes the performance comparison between formats (RNTuple vs. TTree) and generates a side-by-side PDF report in the workspaces/plotting/ folder, showing performance trends.
+    - **The Plotting Mode (plot):** This turns numbers into insights. it visualizes the performance comparison between formats (RNTuple vs. TTree) and generates a side-by-side PDF report in the workspaces/plotting/ folder, showing performance trends.
     
     
 
 ### Choose Your Setup
 Because the Collection Mode has different requirements than the Analysis Nodes (flutuaction and plot), you have two options for setup:
 
-  -  Option 1: Full Pipeline (Athena Environment): Use this if you need to run the Collection Node to generate new data on LXPLUS or aiatlas machine. [View Athena Setup Guide](setup/athena_setup.md).
+  -  **Option 1:** Full Pipeline (Athena Environment): Use this if you need to run the Collection Node to generate new data on LXPLUS or aiatlas machine. [View Athena Setup Guide](setup/athena_setup.md).
     
-  - Option 2: Analysis Only (Standard Python): Use this if you already have CSV files(you can use the one provided in the workspace folder) and only want to run the Fluctuation and Plotting nodes on your local machine [View Python Setup Guide](setup/python_setup.md).
+  - **Option 2:** Analysis Only (Standard Python): Use this if you already have CSV files(you can use the one provided in the workspace folder) and only want to run the Fluctuation and Plotting nodes on your local machine [View Python Setup Guide](setup/python_setup.md).
     
     
