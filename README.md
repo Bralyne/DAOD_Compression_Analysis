@@ -78,6 +78,8 @@ This setup is built as a modular pipeline consisting of three primary modes. Eac
 ### Choose Your Setup
 Because the Collection Mode has different requirements than the Analysis Nodes (flutuaction and plot), you have two options for setup:
 
-    - Option 1: Full Pipeline (Athena Environment): Use this if you need to run the Collection Node to generate new data on LXPLUS or aiatlas machine. [View Athena Setup Guide](setup/athena_setup.md).
+  -  Option 1: Full Pipeline (Athena Environment): Use this if you need to run the Collection Node to generate new data on LXPLUS or aiatlas machine. [View Athena Setup Guide](setup/athena_setup.md).
     
-    - Option 2: Analysis Only (Standard Python): Use this if you already have CSV files(you can use the one provided in the workspace folder) and only want to run the Fluctuation and Plotting nodes on your local machine [View Python Setup Guide](setup/python_setup.md).
+  - Option 2: Analysis Only (Standard Python): Use this if you already have CSV files(you can use the one provided in the workspace folder) and only want to run the Fluctuation and Plotting nodes on your local machine [View Python Setup Guide](setup/python_setup.md).
+    
+    
