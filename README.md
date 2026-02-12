@@ -53,7 +53,7 @@ We focus on **job-level metrics** rather than individual worker metrics. Key met
 
 * **Read throughput:** Calculated as the total number of events processed divided by the slowest worker’s read time (the worker with the highest `CObjr` time). This gives the number of events read per millisecond.
 
-$$Read_{Throughput } = \frac{Events_{total}}{Max_CObjr}$$
+$$Read_{Throughput } = \frac{Events_{total}}{Max_{CObjr}}$$
 
 * **Job throughput:** Total number of events processed divided by the total loop time, representing events processed per millisecond.
 
@@ -67,13 +67,13 @@ $$Job_{Throughput} = \frac{Events_{total}}{Loop_time}$$
 
 This setup is built as a modular pipeline consisting of three primary modes. Each node represents a specific stage of the analysis process.
 
-    - ** The Collection Mode (run_collect) :** This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the athena environment and automatically extracts real-time metrics like Throughput and Memory.
+    - ** The Collection Mode (run_collect): This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the Athena environment and automatically extracts real-time metrics like Throughput and Memory into CSV files, saving them in workspaces/project_name/raw_metrics.csv.
     
-    - ** The Fluctuation Mode (fluctuation): ** this node ensures the data you collected is actually scientifically stable with no noise. It reads the raw results from the Collection Node and performs statistical validation by calculating the Mean, Standard Deviation percentage. If the results fluctuate by more than 5%, this node flags the data as unstable.
+    - ** The Fluctuation Mode (fluctuation): This mode ensures the data you collected is statistically stable and free from server noise. It reads the results from the Collection Node and performs validation by calculating the Mean and Standard Deviation percentage. If the results fluctuate by more than 5%, the data is flagged as unstable. It saves a summary in workspaces/fluctuation.csv and appends the validated data to the master file: workspaces/All_Compression_Algo_metrics.csv.
     
-    - The Plotting Mode (plot): This turns numbers into insights. It shows the Visualization of the performance comparison between formats (RNTuple vs. TTree) and generates PDF/PNG graphs showing performance trends and error bars derived from the Fluctuation Node.
+    - The Plotting Mode (plot): This turns numbers into insights. it visualizes the performance comparison between formats (RNTuple vs. TTree) and generates a side-by-side PDF report in the workspaces/plotting/ folder, showing performance trends.
     
-
+    
 
 ### Choose Your Setup
 Because the Collection Mode has different requirements than the Analysis Nodes (flutuaction and plot), you have two options for setup:
