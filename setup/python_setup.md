@@ -27,4 +27,4 @@ pip install --user -r requirements.txt
 
 ```
 
-**Note: We recommnand you to read [View Athena Setup Guide](daod_analysis/setup/athena_setup.md) to understand the command above*
+**Note: We recommnend you to read [View Athena Setup Guide](daod_analysis/setup/athena_setup.md) to understand the code above above and how the data collection and project structure work.**
