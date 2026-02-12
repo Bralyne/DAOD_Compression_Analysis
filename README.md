@@ -53,13 +53,31 @@ We focus on **job-level metrics** rather than individual worker metrics. Key met
 
 * **Read throughput:** Calculated as the total number of events processed divided by the slowest worker’s read time (the worker with the highest `CObjr` time). This gives the number of events read per millisecond.
 
-$$Read_Throughput = \frac{Events_{total}}{Max_CObjr}$$
+$$Read_{Throughput } = \frac{Events_{total}}{Max_CObjr}$$
 
 * **Job throughput:** Total number of events processed divided by the total loop time, representing events processed per millisecond.
 
-$$Job_Throughput = \frac{Events_{total}}{Loop_time}$$
+$$Job_{Throughput} = \frac{Events_{total}}{Loop_time}$$
 
 * **Memory usage:** Tracked from the `prmon.summary.Derivation.json` file generated during the run.
 
 <br>
 
+## Setup
+
+This setup is built as a modular pipeline consisting of three primary nodes. Each node represents a specific stage of the analysis process.
+
+    - ** The Collection Node (run_collect) :** This is the only part of the project that interacts directly with ATLAS software. It executes derivation jobs in the athena environment and automatically extracts real-time metrics like Throughput and Memory.
+    
+    - ** The Fluctuation Node (fluctuation): ** this node ensures the data you collected is actually scientifically stable with no noise. It reads the raw results from the Collection Node and performs statistical validation by calculating the Mean, Standard Deviation percentage. If the results fluctuate by more than 5%, this node flags the data as unstable.
+    
+    - The Plotting Node (plot): This turns numbers into insights. It shows the Visualization of the performance comparison between formats (RNTuple vs. TTree) and generates PDF/PNG graphs showing performance trends and error bars derived from the Fluctuation Node.
+    
+
+
+### Choose Your Setup
+Because the Collection Node has different requirements than the Analysis Nodes (flutuaction and plot), you have two options for setup:
+
+    - Option 1: Full Pipeline (Athena Environment): Use this if you need to run the Collection Node to generate new data on LXPLUS or aiatlas machine. [View Athena Setup Guide](daod_analysis/setup/athena_setup.md).
+    
+    - Option 2: Analysis Only (Standard Python): Use this if you already have CSV files(you can use the one provided in the workspace folder) and only want to run the Fluctuation and Plotting nodes on your local machine [View Python Setup Guide](daod_analysis/setup/python_setup.md)
