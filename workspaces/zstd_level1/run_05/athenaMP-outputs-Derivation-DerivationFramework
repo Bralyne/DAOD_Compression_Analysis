@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<athenaFileReport>
+  <Files OriginalName="DAOD_PHYS.DAOD.pool.root">
+    <File description="POOL" mode="WRITE|CREATE" name="/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/run_05/athenaMP-workers-Derivation-DerivationFramework/worker_0/DAOD_PHYS.DAOD.pool.root" shared="True" technology="ROOT"/>
+    <File description="POOL" mode="WRITE|CREATE" name="/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/run_05/athenaMP-workers-Derivation-DerivationFramework/worker_1/DAOD_PHYS.DAOD.pool.root" shared="True" technology="ROOT"/>
+  </Files>
+  <Files OriginalName="DAOD_PHYS.DAOD.pool.root?pmerge=localhost:5000">
+    <File description="POOL" mode="WRITE|CREATE" name="/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/run_05/athenaMP-workers-Derivation-DerivationFramework/worker_0/DAOD_PHYS.DAOD.pool.root?pmerge=localhost:5000" shared="True" technology="ROOT"/>
+    <File description="POOL" mode="WRITE|CREATE" name="/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/run_05/athenaMP-workers-Derivation-DerivationFramework/worker_1/DAOD_PHYS.DAOD.pool.root?pmerge=localhost:5000" shared="True" technology="ROOT"/>
+  </Files>
+</athenaFileReport>

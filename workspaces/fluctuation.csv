@@ -1,0 +1,5 @@
+AODtype,Cores,Algo,Processors,Level,Job_Throughput(events/ms),Job_Read_Throughput(events/ms),VMem_max_GB,RSS_max_GB,PSS_max_GB,DAOD_size_GB
+RNtuple,2,ZSTD,1,1,36.84,93.03,2.28,2.77,8.63,90.92
+RNtuple,4,ZSTD,1,1,1.61,5.02,0.32,0.45,0.87,0.0
+TTree,2,LZMA,1,1,0.0,15.15,0.19,1.2,5.1,0.0
+TTree,4,LZMA,1,1,1.88,10.82,3.72,0.36,0.89,0.14

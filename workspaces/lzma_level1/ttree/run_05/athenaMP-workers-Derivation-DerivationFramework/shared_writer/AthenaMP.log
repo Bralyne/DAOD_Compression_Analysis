@@ -1,0 +1,1150 @@
+2026-02-12 18:29:47,394 AthMpEvtLoopMgr.SharedWriterTool                     INFO Logs redirected in the AthenaMP Shared Writer PID=1488903
+2026-02-12 18:29:47,395 AthMpEvtLoopMgr.SharedWriterTool                     INFO Io registry updated in the AthenaMP Shared Writer PID=1488903
+2026-02-12 18:29:47,395 AthMpEvtLoopMgr.SharedWriterTool                     INFO File descriptors re-opened in the AthenaMP Shared Writer PID=1488903
+2026-02-12 18:29:47,396 AthenaRootSharedWriterSvc                            INFO in initialize()
+2026-02-12 18:29:47,396 AthenaRootSharedWriterSvc                            INFO Found a total of 1 output streams
+2026-02-12 18:29:47,406 PoolSvc                                              INFO I/O reinitialization...
+2026-02-12 18:29:47,406 PoolSvc                                              INFO Setting up APR FileCatalog and Streams
+2026-02-12 18:29:47,421 PoolSvc                                              INFO Resolved path (via ATLAS_POOLCOND_PATH) is /cvmfs/atlas-condb.cern.ch/repo/conditions/poolcond/PoolFileCatalog.xml
+2026-02-12 18:29:47,436 PoolSvc                                              INFO Unable find catalog apcfile:poolcond/PoolCat_oflcond.xml in $ATLAS_POOLCOND_PATH and $DATAPATH
+2026-02-12 18:29:47,436 PoolSvc                                              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
+2026-02-12 18:29:47,679 DbSession                                            INFO     Open     DbSession
+2026-02-12 18:29:47,679 Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All]
+2026-02-12 18:29:47,679 DbSession                                            INFO     Open     DbSession
+2026-02-12 18:29:47,679 Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All]
+2026-02-12 18:29:47,679 MetaDataSvc                                          INFO I/O reinitialization...
+2026-02-12 18:29:47,679 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.IOVDbMetaDataTool
+2026-02-12 18:29:47,679 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.BookkeeperTool
+2026-02-12 18:29:47,679 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.StreamDAOD_PHYS_CopyEventStreamInfo
+2026-02-12 18:29:47,680 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.TriggerMenuMetaDataTool
+2026-02-12 18:29:47,680 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.TruthMetaDataTool
+2026-02-12 18:29:47,680 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.xAODMaker::FileMetaDataTool
+2026-02-12 18:29:47,680 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.xAODMaker::EventFormatMetaDataTool
+2026-02-12 18:29:47,680 EventSelector                                        INFO I/O reinitialization...
+2026-02-12 18:29:47,680 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Access   DbDatabase   READ      [ROOT_All] DDA2F11F-D15D-C648-85F4-1887AA43EA0B
+2026-02-12 18:29:47,711 RootDatabase                                         INFO /eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/lzma_level1/ttree/data/lzma_ttree_level1.AOD.pool.root File version:1063901
+2026-02-12 18:29:47,723 StreamDAOD_PHYS                                      INFO I/O reinitialization...
+2026-02-12 18:29:47,723 AthMpEvtLoopMgr.SharedWriterTool                     INFO Exec function in the AthenaMP Shared Writer PID=1488903
+2026-02-12 18:29:57,445 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got start, client = 4, of 5
+2026-02-12 18:29:57,476 DAOD_PHYS.DAOD.pool.root                             INFO ->  Access   DbDatabase   CREATE    [ROOT_All] 738957A0-0838-11F1-B3D8-F688172E65E7
+2026-02-12 18:29:59,306 RootDatabase                                         INFO DAOD_PHYS.DAOD.pool.root File version:63901
+2026-02-12 18:29:59,322 StorageSvc                                           INFO Building shape according to reflection information using shape ID for: 
+2026-02-12 18:29:59,322 StorageSvc                                           INFO xAOD::MissingETAuxAssociationMap_v2 [05184C74-A3CE-4C89-959E-D7E9F0A98D13]
+2026-02-12 18:29:59,324 StorageSvc                                           INFO Building shape according to reflection information using shape ID for: 
+2026-02-12 18:29:59,324 StorageSvc                                           INFO xAOD::MissingETAssociationMap_v1 [E2EAA116-F03E-430E-B4EF-216AAF7DEEE8]
+2026-02-12 18:29:59,326 APR:DbReflex:forGuid                              WARNING  doing GUID scan on ALL types for Class ID=47FE21D1-5196-4961-A8A1-1DC1B4104DD8
+2026-02-12 18:29:59,513 StorageSvc                                           INFO Building shape according to reflection information using shape ID for: 
+2026-02-12 18:29:59,514 StorageSvc                                           INFO xAOD::MissingETContainer_v1 [F49162FE-6BC0-49BC-A7DA-A792136BD939]
+2026-02-12 18:29:59,593 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:29:59,734 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:29:59,734 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got start, client = 1, of 5
+2026-02-12 18:29:59,734 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got start, client = 2, of 5
+2026-02-12 18:29:59,945 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:00,051 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:00,052 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:00,393 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:00,507 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:00,507 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:00,572 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:00,576 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:00,993 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:00,997 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:01,432 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:01,436 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:01,582 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:01,592 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:02,060 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:02,067 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:02,413 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:02,419 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:02,769 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:02,786 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:03,234 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:03,238 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:03,422 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:03,428 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:03,907 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:03,911 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:04,100 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:04,105 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:04,819 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:04,824 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:05,024 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:05,030 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:05,314 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:05,320 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:05,419 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got start, client = 3, of 5
+2026-02-12 18:30:05,600 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:05,703 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:05,703 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:05,725 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:05,730 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:05,936 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:05,951 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:06,641 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:06,651 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:06,706 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:06,710 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:07,235 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:07,247 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:07,322 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:07,333 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:07,625 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:07,630 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:07,703 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:07,708 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:08,392 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:08,401 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:08,640 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:08,650 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:08,674 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:08,681 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:08,850 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:08,856 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:09,583 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:09,588 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:09,828 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:09,845 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:10,002 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:10,008 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:10,355 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:10,365 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:10,502 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:10,506 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:11,266 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:11,271 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:11,499 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:11,511 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:11,600 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:11,604 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:11,856 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:11,868 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:12,376 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:12,381 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:12,521 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:12,527 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:12,693 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:12,700 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:12,990 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:12,996 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:13,380 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:13,385 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:13,506 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:13,510 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:13,827 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:13,832 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:14,370 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:14,375 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:14,412 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:14,417 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:14,621 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:14,642 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:15,382 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:15,394 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:15,450 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:15,456 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:15,498 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:15,509 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:15,785 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:15,791 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:16,171 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:16,175 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:16,415 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:16,423 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:16,741 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:16,752 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:16,870 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:16,874 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:17,503 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:17,514 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:17,714 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:17,719 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:18,065 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:18,070 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:18,552 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:18,559 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:18,725 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:18,729 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:18,753 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:18,791 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:19,589 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:19,596 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:19,618 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:19,623 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:19,778 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:19,783 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:19,839 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:19,844 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:20,680 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:20,684 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:20,708 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:20,714 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:20,968 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:20,978 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:21,421 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:21,435 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:22,013 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:22,018 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:22,041 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:22,046 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:22,119 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:22,127 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:22,783 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:22,790 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:23,088 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:23,093 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:23,116 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:23,128 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:23,221 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:23,228 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:23,782 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:23,787 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:24,004 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:24,009 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:24,135 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:24,140 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:24,407 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:24,413 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:25,048 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:25,068 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:25,259 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:25,268 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:25,402 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:25,412 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:25,772 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:25,790 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:26,184 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:26,191 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:26,560 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:26,564 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:26,765 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:26,775 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:26,896 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:26,903 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:27,395 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:27,402 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:27,536 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:27,542 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:28,191 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:28,203 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:28,332 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:28,337 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:28,359 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:28,367 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:28,628 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:28,633 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:29,253 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:29,258 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:29,387 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:29,392 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:29,486 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:29,493 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:29,805 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:29,811 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:30,122 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:30,127 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:30,634 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:30,687 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:30,846 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:30,851 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:31,174 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:31,199 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:31,342 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:31,347 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:32,027 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:32,034 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:32,137 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:32,142 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:32,383 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:32,388 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:32,470 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:32,477 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:33,149 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:33,154 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:33,473 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:33,480 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:33,664 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:33,669 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:33,820 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:33,835 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:34,581 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:34,586 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:34,677 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:34,682 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:35,023 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:35,040 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:35,072 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:35,114 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:35,578 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:35,591 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:35,908 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:35,914 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:36,454 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:36,460 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:36,755 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:36,762 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:36,900 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:36,911 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:37,104 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:37,108 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:37,785 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:37,791 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:38,020 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:38,027 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:38,050 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:38,055 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:38,641 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:38,647 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:38,706 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:38,711 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:39,240 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:39,247 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:39,609 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:39,624 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:40,022 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:40,028 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:40,065 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:40,088 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:41,040 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:41,046 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:41,390 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:41,396 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:41,421 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:41,430 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:41,634 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:41,686 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:42,305 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:42,312 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:42,474 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:42,479 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:42,681 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:42,701 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:42,942 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:42,949 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:43,449 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:43,454 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:43,517 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:43,528 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:43,829 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:43,835 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:44,243 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:44,255 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:44,442 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:44,446 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:44,493 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:44,515 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:44,862 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:44,870 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:45,122 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:45,126 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:45,305 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:45,311 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:46,038 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:46,044 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:46,122 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:46,127 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:46,176 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:46,181 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:46,258 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:46,275 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:46,923 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:46,929 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:47,665 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:47,676 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:47,716 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:47,720 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:47,811 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:47,817 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:47,909 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:47,917 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:48,762 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:48,769 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:48,914 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:48,927 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:49,450 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:49,461 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:49,664 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:49,669 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:49,703 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:49,734 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:49,755 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:49,759 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:50,610 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:50,614 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:50,896 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:50,901 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:51,089 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:51,095 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:51,590 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:51,613 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:51,963 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:51,968 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:52,100 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:52,107 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:52,405 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:52,431 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:53,075 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:53,081 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:53,461 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:53,469 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:53,591 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:53,614 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:53,640 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:53,646 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:54,037 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:54,041 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:54,650 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:54,655 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:54,680 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:54,702 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:54,900 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:54,905 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:55,006 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:55,013 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:55,567 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:55,571 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:55,631 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:55,636 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:56,189 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:56,194 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:56,311 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:56,316 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:56,504 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:56,509 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:56,694 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:56,703 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:57,181 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:57,186 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:57,261 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:57,278 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:57,827 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:57,842 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:58,010 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:58,015 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:58,045 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:58,060 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:58,572 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:58,583 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:30:58,809 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:30:58,814 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:30:59,068 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:30:59,073 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:30:59,121 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:30:59,126 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:30:59,455 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:30:59,467 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:00,072 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:00,089 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:00,113 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:00,121 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:00,308 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:00,313 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:00,677 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:00,691 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:00,991 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:00,998 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:01,178 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:01,183 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:01,483 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:01,490 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:02,096 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:02,127 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:02,151 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:02,163 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:02,236 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:02,241 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:02,849 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:02,853 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:03,183 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:03,190 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:03,601 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:03,611 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:04,358 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:04,369 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:04,485 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:04,507 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:04,673 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:04,700 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:05,270 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:05,274 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:05,518 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:05,524 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:05,802 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:05,815 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:06,522 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:06,567 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:06,591 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:06,598 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:06,946 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:06,951 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:07,203 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:07,208 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:07,829 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:07,838 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:07,987 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:07,994 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:08,505 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:08,514 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:08,556 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:08,562 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:08,772 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:08,776 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:09,371 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:09,380 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:09,909 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:09,942 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:09,966 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:09,973 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:10,404 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:10,425 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:10,493 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:10,497 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:10,940 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:10,946 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:11,176 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:11,197 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:11,745 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:11,754 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:11,783 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:11,789 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:11,813 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:11,829 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:12,668 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:12,677 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:12,699 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:12,713 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:13,066 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:13,071 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:13,161 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:13,172 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:13,972 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:13,977 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:14,142 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:14,161 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:14,219 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:14,227 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:14,540 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+2026-02-12 18:31:14,546 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 2
+2026-02-12 18:31:15,285 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 3
+2026-02-12 18:31:15,296 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 3
+2026-02-12 18:31:15,319 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 4
+2026-02-12 18:31:15,324 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 4
+2026-02-12 18:31:15,425 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 1
+2026-02-12 18:31:15,431 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got release, client = 1
+2026-02-12 18:31:15,827 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO Server clearObject() got wait, client = 2
+AthenaPoolShare... WARNING INFO message limit (500) reached for AthenaPoolSharedIOCnvSvc.OutputStreamingTool. Suppressing further output.
+2026-02-12 18:34:53,500 ToolSvc.BookkeeperTool                               INFO Preparing local cache for source '' with 194 variations
+2026-02-12 18:34:53,513 ToolSvc.xAODMaker::FileMetaDataTool                  INFO Copied "FileMetaData__STREAM[DAOD_PHYS.DAOD.pool.root]" to MetaDataStore
+2026-02-12 18:34:53,513 ToolSvc.BookkeeperTool                               INFO Copying input containers for source ''
+2026-02-12 18:36:32,108 ToolSvc.BookkeeperTool                               INFO Preparing local cache for source '' with 194 variations
+2026-02-12 18:36:32,117 ToolSvc.BookkeeperTool                               INFO Copying input containers for source ''
+2026-02-12 18:37:09,908 ToolSvc.BookkeeperTool                               INFO Preparing local cache for source '' with 194 variations
+2026-02-12 18:37:09,916 ToolSvc.BookkeeperTool                               INFO Copying input containers for source ''
+2026-02-12 18:37:09,976 ToolSvc.BookkeeperTool                               INFO Preparing local cache for source '' with 194 variations
+2026-02-12 18:37:09,983 ToolSvc.BookkeeperTool                               INFO Copying input containers for source ''
+2026-02-12 18:37:09,983 AthenaPoolSharedIOCnvSvc                             INFO All SharedWriter clients stopped - exiting
+2026-02-12 18:37:09,983 AthenaRootSharedWriterSvc                            INFO commitOutput failed, metadata done.
+2026-02-12 18:37:09,984 AthenaRootSharedWriterSvc                            INFO End commitOutput loop
+2026-02-12 18:37:09,993 ToolSvc.BookkeeperTool                               INFO Successfully copied CutBookkeepers to the output MetaDataStore
+2026-02-12 18:37:09,998 StorageSvc                                           INFO Building shape according to reflection information using shape ID for: 
+2026-02-12 18:37:09,998 StorageSvc                                           INFO xAOD::CutBookkeeperAuxContainer_v1 [AF612BAA-20B8-40A3-A418-894A9FB8A61B]
+2026-02-12 18:37:10,020 StorageSvc                                           INFO Building shape according to reflection information using shape ID for: 
+2026-02-12 18:37:10,020 StorageSvc                                           INFO xAOD::CutBookkeeperContainer_v1 [F2F90B2F-B879-43B8-AF9B-0F843E299A87]
+2026-02-12 18:37:10,077 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO Database being retired...
+2026-02-12 18:37:10,078 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Deaccess DbDatabase   READ      [ROOT_All] DDA2F11F-D15D-C648-85F4-1887AA43EA0B
+2026-02-12 18:37:10,446 DAOD_PHYS.DAOD.pool.root                             INFO Database being retired...
+2026-02-12 18:37:10,596 DAOD_PHYS.DAOD.pool.root                             INFO ->  Deaccess DbDatabase   CREATE    [ROOT_All] 738957A0-0838-11F1-B3D8-F688172E65E7
+2026-02-12 18:37:10,598 Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All]
+2026-02-12 18:37:10,628 ApplicationMgr                                       INFO Application Manager Stopped successfully
+2026-02-12 18:37:10,643 AthenaRootSharedWriterSvc                            INFO in finalize()
+2026-02-12 18:37:10,718 CondInputLoader                                      INFO Finalizing CondInputLoader...
+2026-02-12 18:37:10,719 MCTruthClassificationKernel                          INFO ============================================================================
+2026-02-12 18:37:10,719 MCTruthClassificationKernel                          INFO  The following CP tools were called by MCTruthClassificationKernel for the whole train:
+2026-02-12 18:37:10,719 MCTruthClassificationKernel                          INFO ToolSvc.DFCommonTruthClassificationTool
+2026-02-12 18:37:10,719 MCTruthClassificationKernel                          INFO ============================================================================
+2026-02-12 18:37:10,719 PhysCommonTruthCharmKernel                           INFO ============================================================================
+2026-02-12 18:37:10,719 PhysCommonTruthCharmKernel                           INFO  The following CP tools were called by PhysCommonTruthCharmKernel for the whole train:
+2026-02-12 18:37:10,719 PhysCommonTruthCharmKernel                           INFO ToolSvc.PhysCommonTruthCharmTool
+2026-02-12 18:37:10,719 PhysCommonTruthCharmKernel                           INFO ============================================================================
+2026-02-12 18:37:10,719 MCTruthCommonHFAndDecaysKernel                       INFO ============================================================================
+2026-02-12 18:37:10,719 MCTruthCommonHFAndDecaysKernel                       INFO  The following CP tools were called by MCTruthCommonHFAndDecaysKernel for the whole train:
+2026-02-12 18:37:10,719 MCTruthCommonHFAndDecaysKernel                       INFO ToolSvc.DFCommonHFAndDecaysTool
+2026-02-12 18:37:10,720 MCTruthCommonHFAndDecaysKernel                       INFO ============================================================================
+2026-02-12 18:37:10,720 DFCommonTruthMetaDataWriterKernel                    INFO ============================================================================
+2026-02-12 18:37:10,720 DFCommonTruthMetaDataWriterKernel                    INFO  The following CP tools were called by DFCommonTruthMetaDataWriterKernel for the whole train:
+2026-02-12 18:37:10,720 DFCommonTruthMetaDataWriterKernel                    INFO ToolSvc.DFCommonTruthMetaDataWriter
+2026-02-12 18:37:10,720 DFCommonTruthMetaDataWriterKernel                    INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo1                         INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo1                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo1 for the whole train:
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo1                         INFO ToolSvc.DFCommonTruthMuonTool
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo1                         INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo2                         INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo2                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo2 for the whole train:
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo2                         INFO ToolSvc.DFCommonTruthElectronTool
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo2                         INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo3                         INFO ============================================================================
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo3                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo3 for the whole train:
+2026-02-12 18:37:10,720 MCTruthCommonPreJetKernelNo3                         INFO ToolSvc.DFCommonTruthPhotonToolSim
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo3                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo4                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo4                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo4 for the whole train:
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo4                         INFO ToolSvc.DFCommonTruthNeutrinoTool
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo4                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo5                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo5                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo5 for the whole train:
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo5                         INFO ToolSvc.DFCommonTruthBottomTool
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo5                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo6                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo6                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo6 for the whole train:
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo6                         INFO ToolSvc.DFCommonTruthTopTool
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo6                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo7                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo7                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo7 for the whole train:
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo7                         INFO ToolSvc.DFCommonTruthBosonTool
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo7                         INFO ============================================================================
+2026-02-12 18:37:10,721 MCTruthCommonPreJetKernelNo8                         INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo8                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo8 for the whole train:
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo8                         INFO ToolSvc.DFCommonTruthBSMTool
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo8                         INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo9                         INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo9                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo9 for the whole train:
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo9                         INFO ToolSvc.DFCommonTruthElectronIsolationTool1
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo9                         INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo10                        INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo10                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo10 for the whole train:
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo10                        INFO ToolSvc.DFCommonTruthElectronIsolationTool2
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo10                        INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo11                        INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo11                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo11 for the whole train:
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo11                        INFO ToolSvc.DFCommonTruthMuonIsolationTool1
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo11                        INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo12                        INFO ============================================================================
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo12                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo12 for the whole train:
+2026-02-12 18:37:10,722 MCTruthCommonPreJetKernelNo12                        INFO ToolSvc.DFCommonTruthMuonIsolationTool2
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo12                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo13                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo13                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo13 for the whole train:
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo13                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool1
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo13                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo14                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo14                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo14 for the whole train:
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo14                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool2
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo14                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo15                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo15                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo15 for the whole train:
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo15                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool3
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo15                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo16                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo16                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo16 for the whole train:
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo16                        INFO ToolSvc.DFCommonTruthForwardProtonTool
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo16                        INFO ============================================================================
+2026-02-12 18:37:10,723 MCTruthCommonPreJetKernelNo17                        INFO ============================================================================
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo17                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo17 for the whole train:
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo17                        INFO ToolSvc.DFCommonTruthElectronDressingTool
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo17                        INFO ============================================================================
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo18                        INFO ============================================================================
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo18                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo18 for the whole train:
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo18                        INFO ToolSvc.DFCommonTruthMuonDressingTool
+2026-02-12 18:37:10,724 MCTruthCommonPreJetKernelNo18                        INFO ============================================================================
+2026-02-12 18:37:10,725 TauTruthCommonKernel2                                INFO ============================================================================
+2026-02-12 18:37:10,725 TauTruthCommonKernel2                                INFO  The following CP tools were called by TauTruthCommonKernel2 for the whole train:
+2026-02-12 18:37:10,725 TauTruthCommonKernel2                                INFO ToolSvc.DFCommonTauJetsTruthMatchingWrapper
+2026-02-12 18:37:10,725 TauTruthCommonKernel2                                INFO ============================================================================
+2026-02-12 18:37:10,725 MCTruthCommonPostJetKernelNo1                        INFO ============================================================================
+2026-02-12 18:37:10,725 MCTruthCommonPostJetKernelNo1                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo1 for the whole train:
+2026-02-12 18:37:10,725 MCTruthCommonPostJetKernelNo1                        INFO ToolSvc.DFCommonTruthTauDressingTool
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo1                        INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo2                        INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo2                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo2 for the whole train:
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo2                        INFO ToolSvc.DFCommonTruthGenFilt
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo2                        INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo3                        INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo3                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo3 for the whole train:
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo3                        INFO ToolSvc.DFCommonTruthDressedWZQGLabelTool
+2026-02-12 18:37:10,726 MCTruthCommonPostJetKernelNo3                        INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthNavigationDecoratorKernel                     INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthNavigationDecoratorKernel                     INFO  The following CP tools were called by MCTruthNavigationDecoratorKernel for the whole train:
+2026-02-12 18:37:10,726 MCTruthNavigationDecoratorKernel                     INFO ToolSvc.DFCommonTruthNavigationDecorator
+2026-02-12 18:37:10,726 MCTruthNavigationDecoratorKernel                     INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonBosonsAndDecaysKernel                   INFO ============================================================================
+2026-02-12 18:37:10,726 MCTruthCommonBosonsAndDecaysKernel                   INFO  The following CP tools were called by MCTruthCommonBosonsAndDecaysKernel for the whole train:
+2026-02-12 18:37:10,727 MCTruthCommonBosonsAndDecaysKernel                   INFO ToolSvc.DFCommonBosonsAndDecaysTool
+2026-02-12 18:37:10,727 MCTruthCommonBosonsAndDecaysKernel                   INFO ============================================================================
+2026-02-12 18:37:10,727 MCTruthCommonBSMAndDecaysKernel                      INFO ============================================================================
+2026-02-12 18:37:10,727 MCTruthCommonBSMAndDecaysKernel                      INFO  The following CP tools were called by MCTruthCommonBSMAndDecaysKernel for the whole train:
+2026-02-12 18:37:10,727 MCTruthCommonBSMAndDecaysKernel                      INFO ToolSvc.DFCommonBSMAndDecaysTool
+2026-02-12 18:37:10,727 MCTruthCommonBSMAndDecaysKernel                      INFO ============================================================================
+2026-02-12 18:37:10,727 MCTruthCommonBornLeptonsKernel                       INFO ============================================================================
+2026-02-12 18:37:10,727 MCTruthCommonBornLeptonsKernel                       INFO  The following CP tools were called by MCTruthCommonBornLeptonsKernel for the whole train:
+2026-02-12 18:37:10,727 MCTruthCommonBornLeptonsKernel                       INFO ToolSvc.DFCommonBornLeptonCollTool
+2026-02-12 18:37:10,727 MCTruthCommonBornLeptonsKernel                       INFO ============================================================================
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo1                     INFO ============================================================================
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo1                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo1 for the whole train:
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo1                     INFO ToolSvc.ElMiniCollectionTruthLinkTool
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo1                     INFO ============================================================================
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo2                     INFO ============================================================================
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo2                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo2 for the whole train:
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo2                     INFO ToolSvc.PhMiniCollectionTruthLinkTool
+2026-02-12 18:37:10,727 MiniCollectionTruthLinkKernelNo2                     INFO ============================================================================
+2026-02-12 18:37:10,728 MiniCollectionTruthLinkKernelNo3                     INFO ============================================================================
+2026-02-12 18:37:10,728 MiniCollectionTruthLinkKernelNo3                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo3 for the whole train:
+2026-02-12 18:37:10,728 MiniCollectionTruthLinkKernelNo3                     INFO ToolSvc.MuMiniCollectionTruthLinkTool
+2026-02-12 18:37:10,728 MiniCollectionTruthLinkKernelNo3                     INFO ============================================================================
+2026-02-12 18:37:10,728 MCTruthCommonTruthPVCollKernel                       INFO ============================================================================
+2026-02-12 18:37:10,728 MCTruthCommonTruthPVCollKernel                       INFO  The following CP tools were called by MCTruthCommonTruthPVCollKernel for the whole train:
+2026-02-12 18:37:10,728 MCTruthCommonTruthPVCollKernel                       INFO ToolSvc.DFCommonTruthPVCollTool
+2026-02-12 18:37:10,728 MCTruthCommonTruthPVCollKernel                       INFO ============================================================================
+2026-02-12 18:37:10,728 DFCommonHSDecorator                                  INFO ============================================================================
+2026-02-12 18:37:10,728 DFCommonHSDecorator                                  INFO  The following CP tools were called by DFCommonHSDecorator for the whole train:
+2026-02-12 18:37:10,728 DFCommonHSDecorator                                  INFO ToolSvc.HardScatterDecorTool
+2026-02-12 18:37:10,728 DFCommonHSDecorator                                  INFO ============================================================================
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonTrackSelection              INFO ============================================================================
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonTrackSelection              INFO  The following CP tools were called by InDetCommonKernelDFCommonTrackSelection for the whole train:
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonTrackSelection              INFO ToolSvc.DFCommonTrackSelection
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonTrackSelection              INFO ============================================================================
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonZ0AtPV                      INFO ============================================================================
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonZ0AtPV                      INFO  The following CP tools were called by InDetCommonKernelDFCommonZ0AtPV for the whole train:
+2026-02-12 18:37:10,728 InDetCommonKernelDFCommonZ0AtPV                      INFO ToolSvc.DFCommonZ0AtPV
+2026-02-12 18:37:10,729 InDetCommonKernelDFCommonZ0AtPV                      INFO ============================================================================
+2026-02-12 18:37:10,729 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ============================================================================
+2026-02-12 18:37:10,729 InDetCommonKernelDFCommonUsedInFitDecorator          INFO  The following CP tools were called by InDetCommonKernelDFCommonUsedInFitDecorator for the whole train:
+2026-02-12 18:37:10,729 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ToolSvc.DFCommonUsedInFitDecorator
+2026-02-12 18:37:10,729 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ============================================================================
+2026-02-12 18:37:10,729 DFCommonMuonsKernel                                  INFO ============================================================================
+2026-02-12 18:37:10,729 DFCommonMuonsKernel                                  INFO  The following CP tools were called by DFCommonMuonsKernel for the whole train:
+2026-02-12 18:37:10,729 DFCommonMuonsKernel                                  INFO ToolSvc.DFCommonMuonToolWrapperIDCuts
+2026-02-12 18:37:10,729 DFCommonMuonsKernel                                  INFO ToolSvc.DFCommonMuonToolWrapperPreselection
+2026-02-12 18:37:10,729 DFCommonMuonsKernel                                  INFO ============================================================================
+2026-02-12 18:37:10,729 IsolationBuilderNonpro...All_MaxWeightLooseCone500   INFO Finalizing IsolationBuilderNonprompt_All_MaxWeightLooseCone500...
+2026-02-12 18:37:10,729 IsolationBuilderNonprompt_All_MaxWeight500           INFO Finalizing IsolationBuilderNonprompt_All_MaxWeight500...
+2026-02-12 18:37:10,729 IsolationBuilderNonpro...ll_MaxWeightLooseCone1000   INFO Finalizing IsolationBuilderNonprompt_All_MaxWeightLooseCone1000...
+2026-02-12 18:37:10,729 IsolationBuilderNonprompt_All_MaxWeight1000          INFO Finalizing IsolationBuilderNonprompt_All_MaxWeight1000...
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ============================================================================
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO  The following CP tools were called by EGammaCommonKernel for the whole train:
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.DFCommonPhotonsDirection
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHVeryLoose
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHLoose
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHLooseBL
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHMedium
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHTight
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNLoose
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNMedium
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNTight
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNVeryLooseNoCF97
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNLooseNoCF
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNMediumNoCF
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNTightNoCF
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMLoose
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMMedium
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMTight
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassCleaning
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronAdditionnalAmbiguity
+2026-02-12 18:37:10,730 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassECIDS
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHLoose
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHMedium
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHTight
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.DerivationFramework::EGammaClusterCoreCellRecovery
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.BkgElectronClassificationTool
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.TruthEgetIsolationTool
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ToolSvc.TruthEgptIsolationTool
+2026-02-12 18:37:10,731 EGammaCommonKernel                                   INFO ============================================================================
+2026-02-12 18:37:10,731 PFlowIsolationBuilder                                INFO Finalizing PFlowIsolationBuilder...
+2026-02-12 18:37:10,732 BadBatmanAugmentation                                INFO ============================================================================
+2026-02-12 18:37:10,732 BadBatmanAugmentation                                INFO  The following CP tools were called by BadBatmanAugmentation for the whole train:
+2026-02-12 18:37:10,732 BadBatmanAugmentation                                INFO ToolSvc.BadBatmanAugmentationTool
+2026-02-12 18:37:10,732 BadBatmanAugmentation                                INFO ============================================================================
+2026-02-12 18:37:10,733 DistanceInTrainAugmentation                          INFO ============================================================================
+2026-02-12 18:37:10,733 DistanceInTrainAugmentation                          INFO  The following CP tools were called by DistanceInTrainAugmentation for the whole train:
+2026-02-12 18:37:10,733 DistanceInTrainAugmentation                          INFO ToolSvc.DistanceInTrainAugmentationTool
+2026-02-12 18:37:10,733 DistanceInTrainAugmentation                          INFO ============================================================================
+2026-02-12 18:37:10,733 TauJets_TauIDDecorKernel                             INFO ============================================================================
+2026-02-12 18:37:10,733 TauJets_TauIDDecorKernel                             INFO  The following CP tools were called by TauJets_TauIDDecorKernel for the whole train:
+2026-02-12 18:37:10,733 TauJets_TauIDDecorKernel                             INFO ToolSvc.TauJets_TauIDDecoratorWrapper
+2026-02-12 18:37:10,733 TauJets_TauIDDecorKernel                             INFO ============================================================================
+2026-02-12 18:37:10,733 TauRNNLooseAugmentationKernel                        INFO ============================================================================
+2026-02-12 18:37:10,733 TauRNNLooseAugmentationKernel                        INFO  The following CP tools were called by TauRNNLooseAugmentationKernel for the whole train:
+2026-02-12 18:37:10,733 TauRNNLooseAugmentationKernel                        INFO ToolSvc.TauRNNLooseWrapper
+2026-02-12 18:37:10,733 TauRNNLooseAugmentationKernel                        INFO ============================================================================
+2026-02-12 18:37:10,733 DFCommonMuonsKernel2                                 INFO ============================================================================
+2026-02-12 18:37:10,733 DFCommonMuonsKernel2                                 INFO  The following CP tools were called by DFCommonMuonsKernel2 for the whole train:
+2026-02-12 18:37:10,734 DFCommonMuonsKernel2                                 INFO ToolSvc.MuonJetDrTool
+2026-02-12 18:37:10,734 DFCommonMuonsKernel2                                 INFO ============================================================================
+2026-02-12 18:37:10,734 DiTauLowPtBuilder                                    INFO Finalizing DiTauLowPtBuilder...
+2026-02-12 18:37:10,734 TauJets_MuonRM_TauIDDecorKernel                      INFO ============================================================================
+2026-02-12 18:37:10,734 TauJets_MuonRM_TauIDDecorKernel                      INFO  The following CP tools were called by TauJets_MuonRM_TauIDDecorKernel for the whole train:
+2026-02-12 18:37:10,734 TauJets_MuonRM_TauIDDecorKernel                      INFO ToolSvc.TauJets_MuonRM_TauIDDecoratorWrapper
+2026-02-12 18:37:10,734 TauJets_MuonRM_TauIDDecorKernel                      INFO ============================================================================
+2026-02-12 18:37:10,734 DiTauIDDecorKernel                                   INFO ============================================================================
+2026-02-12 18:37:10,734 DiTauIDDecorKernel                                   INFO  The following CP tools were called by DiTauIDDecorKernel for the whole train:
+2026-02-12 18:37:10,735 DiTauIDDecorKernel                                   INFO ToolSvc.DiTauIDDecoratorWrapper
+2026-02-12 18:37:10,735 DiTauIDDecorKernel                                   INFO ============================================================================
+2026-02-12 18:37:10,735 DiTauJets_DiTauIDDecorKernel                         INFO ============================================================================
+2026-02-12 18:37:10,735 DiTauJets_DiTauIDDecorKernel                         INFO  The following CP tools were called by DiTauJets_DiTauIDDecorKernel for the whole train:
+2026-02-12 18:37:10,735 DiTauJets_DiTauIDDecorKernel                         INFO ToolSvc.DiTauJets_DiTauChargeDecorator
+2026-02-12 18:37:10,735 DiTauJets_DiTauIDDecorKernel                         INFO ============================================================================
+2026-02-12 18:37:10,735 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ============================================================================
+2026-02-12 18:37:10,735 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO  The following CP tools were called by DiTauJetsLowPt_DiTauIDDecorKernel for the whole train:
+2026-02-12 18:37:10,735 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ToolSvc.DiTauJetsLowPt_DiTauChargeDecorator
+2026-02-12 18:37:10,735 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ============================================================================
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO ============================================================================
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO || SUMMARY OF THE DERIVATION FRAMEWORK KERNEL WITH NAME PHYSKernel || 
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO ============================================================================
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO ============================================================================
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO Events analyzed: 0
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO Events accepted: 0
+2026-02-12 18:37:10,736 PHYSKernel                                           INFO ============================================================================
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO Proccessed in total 0 events. Lepton multiplicities observed:
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 0 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 1 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 2 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 3 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 4 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 5 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 6 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO     ---- Events with 7 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 18:37:10,737 FourLeptonVertexAlg                                  INFO ---> Attempted fits 0 out of which 0 (0%) succeeded.
+2026-02-12 18:37:10,737 HFClassificationCommonKernel                         INFO ============================================================================
+2026-02-12 18:37:10,737 HFClassificationCommonKernel                         INFO  The following CP tools were called by HFClassificationCommonKernel for the whole train:
+2026-02-12 18:37:10,737 HFClassificationCommonKernel                         INFO ToolSvc.DFCommonClassifyAndCalculateHFAugmentation
+2026-02-12 18:37:10,737 HFClassificationCommonKernel                         INFO ============================================================================
+2026-02-12 18:37:10,738 MCTruthCommonTausAndDecaysKernel                     INFO ============================================================================
+2026-02-12 18:37:10,738 MCTruthCommonTausAndDecaysKernel                     INFO  The following CP tools were called by MCTruthCommonTausAndDecaysKernel for the whole train:
+2026-02-12 18:37:10,738 MCTruthCommonTausAndDecaysKernel                     INFO ToolSvc.DFCommonTausAndDecaysTool
+2026-02-12 18:37:10,738 MCTruthCommonTausAndDecaysKernel                     INFO ============================================================================
+2026-02-12 18:37:10,738 AllExecutedEventsCounterAlg                          INFO accepted 0 out of 0 events for filter AllExecutedEvents (Number of processed events before any cut)
+2026-02-12 18:37:10,738 DecisionSvc                                          INFO Finalized successfully.
+2026-02-12 18:37:10,738 AthDictLoaderSvc                                     INFO in finalize...
+2026-02-12 18:37:11,295 Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All]
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats Timing Measurements for AthenaPoolCnvSvc
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cObjR_ALL       |            5294 ms |
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | commitOutput    |            8656 ms |
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | fRep_ALL        |              57 ms |
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cObj_ALL        |            5555 ms |
+2026-02-12 18:37:11,296 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cRepR_ALL       |            3482 ms |
+2026-02-12 18:37:11,297 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cRep_ALL        |           14928 ms |
+2026-02-12 18:37:11,297 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 18:37:11,346 IOVDbFolder                                          INFO Folder /Digitization/Parameters (AttrList) db-read 0/1 objs/chan/bytes 1/0/0 ((     0.00 ))s
+2026-02-12 18:37:11,346 IOVDbFolder                                          INFO Folder /EXT/DCS/MAGNETS/SENSORDATA (AttrListColl) db-read 1/1 objs/chan/bytes 4/4/20 ((     0.04 ))s
+2026-02-12 18:37:11,346 IOVDbFolder                                          INFO Folder /GLOBAL/BField/Maps (AttrListColl) db-read 1/1 objs/chan/bytes 3/3/202 ((     0.03 ))s
+2026-02-12 18:37:11,346 IOVDbFolder                                          INFO Folder /GLOBAL/TrackingGeo/LayerMaterialV2 (PoolRef) db-read 1/1 objs/chan/bytes 1/1/231 ((     0.01 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /Indet/Align (PoolRefColl) db-read 1/1 objs/chan/bytes 43/43/7009 ((     0.03 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /Indet/Beampos (AttrList) db-read 1/1 objs/chan/bytes 6/1/456 ((     0.02 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /Indet/IBLDist (AttrListColl) db-read 1/1 objs/chan/bytes 14/14/280 ((     0.01 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /LAR/Align (PoolRef) db-read 1/1 objs/chan/bytes 1/1/170 ((     0.04 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /MDT/MM/PASSIVATION (AttrListColl) db-read 1/1 objs/chan/bytes 1/1/680679 ((     0.03 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /TRT/Align (PoolRefColl) db-read 1/1 objs/chan/bytes 32/32/5120 ((     0.04 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /TRT/Calib/DX (PoolRef) db-read 1/1 objs/chan/bytes 1/1/183 ((     0.02 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /TagInfo (AttrListColl) db-read 0/1 objs/chan/bytes 1/0/0 ((     0.00 ))s
+2026-02-12 18:37:11,347 IOVDbFolder                                          INFO Folder /LAR/LArCellPositionShift (PoolRef) db-read 1/1 objs/chan/bytes 1/1/195 ((     0.03 ))s
+2026-02-12 18:37:11,347 IOVDbSvc                                             INFO Total payload read from IOVDb: 694545 bytes in ((      0.29 ))s
+2026-02-12 18:37:11,347 IOVDbSvc                                             INFO Connection sqlite://;schema=mycool.db;dbname=OFLP200 : nConnect: 0 nFolders: 0 ReadTime: ((     0.00 ))s
+2026-02-12 18:37:11,347 IOVDbSvc                                             INFO Connection COOLOFL_LAR/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.06 ))s
+2026-02-12 18:37:11,348 IOVDbSvc                                             INFO Connection COOLOFL_GLOBAL/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.04 ))s
+2026-02-12 18:37:11,348 IOVDbSvc                                             INFO Connection COOLOFL_DCS/OFLP200 : nConnect: 2 nFolders: 1 ReadTime: ((     0.04 ))s
+2026-02-12 18:37:11,348 IOVDbSvc                                             INFO Connection COOLOFL_INDET/OFLP200 : nConnect: 2 nFolders: 3 ReadTime: ((     0.06 ))s
+2026-02-12 18:37:11,348 IOVDbSvc                                             INFO Connection COOLOFL_MDT/OFLP200 : nConnect: 2 nFolders: 1 ReadTime: ((     0.03 ))s
+2026-02-12 18:37:11,348 IOVDbSvc                                             INFO Connection COOLOFL_TRT/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.06 ))s
+2026-02-12 18:37:11,350 ToolSvc                                              INFO Removing all tools created by ToolSvc
+2026-02-12 18:37:11,351 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 18:37:11,351 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ---- FinalizingTruthCategoriesDecorator.HiggsTruthCategoryTool...
+2026-02-12 18:37:11,351 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 18:37:11,351 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==========    xAOD -> HepMC Tool :: Run Summary     ==========
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO No missing production vertices
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO No events with undefined beams.
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ===================    End Run Summary     ===================
+2026-02-12 18:37:11,352 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 18:37:11,352 ToolSvc.PHYSDiTauLowPtTPThinningTool                 INFO Processed 0 tracks, 0 were retained 
+2026-02-12 18:37:11,352 ToolSvc.PHYSDiTauLowPtThinningTool                   INFO Processed 0 objects, 0 were retained 
+2026-02-12 18:37:11,352 ToolSvc.PHYSDiTauTPThinningTool                      INFO Processed 0 tracks, 0 were retained 
+2026-02-12 18:37:11,353 ToolSvc.PHYSDiTauThinningTool                        INFO Processed 0 objects, 0 were retained 
+2026-02-12 18:37:11,353 ToolSvc.PHYSTauJets_MuonRMThinningTool               INFO Processed 0 taus, 0 were kept
+2026-02-12 18:37:11,353 ToolSvc.PHYSTauJetThinningTool                       INFO Processed 0 taus, 0 were kept
+2026-02-12 18:37:11,353 ToolSvc.PHYSMuonTPThinningTool                       INFO Processed 0 tracks, 0 were retained 
+2026-02-12 18:37:11,353 ToolSvc.PHYSTrackParticleThinningTool                INFO Processed 0 tracks, 0 were retained 
+2026-02-12 18:37:11,353 ToolSvc.TrigDecisionTool                             INFO Finalized
+2026-02-12 18:37:11,353 METAssociat...MET_AssociationTool_AntiKt4EMPFlowHR   INFO Finalizing METAssociation_AntiKt4EMPFlowHR.MET_AssociationTool_AntiKt4EMPFlowHR...
+2026-02-12 18:37:11,353 METAssociatio...MET_AssociationTool_AntiKt4EMPFlow   INFO Finalizing METAssociation_AntiKt4EMPFlow.MET_AssociationTool_AntiKt4EMPFlow...
+2026-02-12 18:37:11,353 METAssociation...MET_AssociationTool_AntiKt4EMTopo   INFO Finalizing METAssociation_AntiKt4EMTopo.MET_AssociationTool_AntiKt4EMTopo...
+2026-02-12 18:37:11,354 JetTagVertexDecoratorAlgAntiKt10UFO...JFVarFactory   INFO  Finalization of JetFitterVariablesFactory successful
+2026-02-12 18:37:11,354 JetTagVertexDecoratorAlgAntiKt10...Analysis::SVTag   INFO #BTAG# Number of jets used for calibration for reference ALL : #b= 0 #light= 0 #charm= 0
+2026-02-12 18:37:11,354 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,354 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,354 JetTagVertexDecoratorAlgAntiKt4EMPF...JFVarFactory   INFO  Finalization of JetFitterVariablesFactory successful
+2026-02-12 18:37:11,354 JetTagVertexDecoratorAlgAntiKt4E...Analysis::SVTag   INFO #BTAG# Number of jets used for calibration for reference ALL : #b= 0 #light= 0 #charm= 0
+2026-02-12 18:37:11,355 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,355 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,360 METRecoAlg_Truth.MET_RegionTool_Truth                INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth...
+2026-02-12 18:37:11,360 METRecoAlg_Truth.MET_RecoTool_Truth                  INFO Finalizing METRecoAlg_Truth.MET_RecoTool_Truth...
+2026-02-12 18:37:11,361 ToolSvc.DFCommonTruthForwardProtonTool               INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,361 ToolSvc.DFCommonTruthBSMTool                         INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,361 ToolSvc.DFCommonTruthBosonTool                       INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,361 ToolSvc.DFCommonTruthTopTool                         INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,361 ToolSvc.DFCommonTruthBottomTool                      INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.DFCommonTruthNeutrinoTool                    INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.DFCommonTruthPhotonToolSim                   INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.DFCommonTruthElectronTool                    INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.DFCommonTruthMuonTool                        INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.PhysCommonTruthCharmTool                     INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 18:37:11,362 ToolSvc.DFCommonTruthClassificationTool              INFO Processed and decorated 0 truth particles
+2026-02-12 18:37:11,362 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO in finalize()
+2026-02-12 18:37:11,374 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,374 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,374 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,374 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,375 ToolSvc.DiTauIDDeco...DiTauRec_OnnxScoreCalculator   INFO Finalizing DiTauOnnxDiscriminantTool
+2026-02-12 18:37:11,390 METRecoAlg_Truth.MET_R...MET_IntMuonsRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntMuonsRegions_Truth...
+2026-02-12 18:37:11,390 METRecoAlg_Truth.MET_Reg...MET_IntOutRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntOutRegions_Truth...
+2026-02-12 18:37:11,390 METRecoAlg_Truth.MET_Region...MET_IntRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntRegions_Truth...
+2026-02-12 18:37:11,391 METRecoAlg_Truth.MET_Reg...MET_NonIntRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_NonIntRegions_Truth...
+2026-02-12 18:37:11,391 AtlasTrackingGeometryCond...MuonStationTypeBuilder   INFO  finalize() successful
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/2404.15984 and https://arxiv.org/abs/2312.15070
+2026-02-12 18:37:11,500 PerfMonMTSvc                                         INFO Finalizing PerfMonMTSvc
+2026-02-12 18:37:11,500 IdDictDetDescrCnv                                    INFO in finalize
+2026-02-12 18:37:11,503 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 18:37:11,504 *****Chrono*****                                     INFO  The Final CPU consumption ( Chrono ) Table (ordered)
+2026-02-12 18:37:11,504 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 18:37:11,504 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,504 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 18:37:11,504 ChronoStatSvc                                        INFO Time User   : Tot= 21.2  [s]  #=  1
+2026-02-12 18:37:11,504 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 18:37:11,504 ChronoStatSvc.finalize()                             INFO  Service finalized successfully 
+2026-02-12 18:37:11,504 FPEAuditor                                           INFO FPE summary for this job
+2026-02-12 18:37:11,504 FPEAuditor                                           INFO  FPE OVERFLOWs  : 0
+2026-02-12 18:37:11,504 FPEAuditor                                           INFO  FPE INVALIDs   : 0
+2026-02-12 18:37:11,504 FPEAuditor                                           INFO  FPE DIVBYZEROs : 0
+2026-02-12 18:37:11,586 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO                                  PerfMonMTSvc Report                                   
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO *** Full set of information can also be found in: perfmonmt_Derivation.json
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO *** In order to make plots using the results run the following commands:
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO *** $ perfmonmt-plotter.py -i perfmonmt_Derivation.json
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO *** In order to print tables using the results run the following commands:
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO *** $ perfmonmt-printer.py -i perfmonmt_Derivation.json
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO                              Component Level Monitoring                                
+2026-02-12 18:37:11,587 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,588 PerfMonMTSvc                                         INFO Step       Count           CPU Time [ms]             Vmem [kB]                                Malloc [kB]                                             Component                                                                  
+2026-02-12 18:37:11,588 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               3082.95                   124056                                   33379                                                   EGammaCommonKernel                                                         
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               616.79                    38668                                    13219                                                   MuonRemovalTauAODReRecoAlg                                                 
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               511.25                    34356                                    74752                                                   AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                                   
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               459.10                    9948                                     7539                                                    DFCommonMuonsKernel                                                        
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               446.25                    27648                                    73350                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                         
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               440.30                    7400                                     7416                                                    ToolSvc.DFCommonMuonToolWrapperIDCuts                                      
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               433.72                    6808                                     7334                                                    ToolSvc.DFCommonMuonsSelector                                              
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               424.37                    46276                                    67638                                                   AntiKt4EMPFlowJets                                                         
+2026-02-12 18:37:11,606 PerfMonMTSvc                                         INFO Initialize 1               421.05                    46276                                    67336                                                   jetrecalg_AntiKt4EMPFlowJets                                               
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               420.64                    46276                                    67300                                                   jetrecalg_AntiKt4EMPFlowJets.emscalemom_AntiKt4EMPFlow                     
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               420.26                    46276                                    67262                                                   jetrecalg_AntiKt4EMPFlowJets.jetens                                        
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               416.80                    46276                                    67013                                                   jetrecalg_AntiKt4EMPFlowJets.width                                         
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               416.58                    46276                                    67004                                                   jetrecalg_AntiKt4EMPFlowJets.caloqual                                      
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               415.89                    46276                                    66972                                                   jetrecalg_AntiKt4EMPFlowJets.trkmoms                                       
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               414.78                    46276                                    66900                                                   jetrecalg_AntiKt4EMPFlowJets.trksummoms                                    
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               414.28                    46276                                    66838                                                   jetrecalg_AntiKt4EMPFlowJets.jvf                                           
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               413.76                    46276                                    66776                                                   jetrecalg_AntiKt4EMPFlowJets.jvt                                           
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               411.41                    46276                                    66639                                                   jetrecalg_AntiKt4EMPFlowJets.larhvcorr                                     
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               411.22                    46276                                    66629                                                   jetrecalg_AntiKt4EMPFlowJets.iso                                           
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               410.97                    46276                                    66614                                                   jetrecalg_AntiKt4EMPFlowJets.jetPtAssociation                              
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               410.75                    46276                                    66595                                                   jetrecalg_AntiKt4EMPFlowJets.qgtagging                                     
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               409.61                    46276                                    66515                                                   jetrecalg_AntiKt4EMPFlowJets.nnjvt                                         
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               407.41                    46276                                    66477                                                   jetrecalg_AntiKt4EMPFlowJets.fJVT                                          
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               376.67                    79640                                    2425                                                    ToolSvc.ElectronPassDNNLoose                                               
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               366.31                    28136                                    1977                                                    TrigNavSlimmingMTAlg_DAOD                                                  
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               356.42                    78848                                    2204                                                    ToolSvc.ElectronPassDNNLoose.ElectronDNNSelectorLoose                      
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               347.05                    7168                                     39912                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.width                   
+2026-02-12 18:37:11,607 PerfMonMTSvc                                         INFO Initialize 1               346.75                    7168                                     39895                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.nsubjettiness           
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               345.58                    7168                                     39849                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ktsplitter              
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               345.09                    7168                                     39827                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ecorr                   
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               344.42                    7168                                     39796                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.qw                      
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               343.91                    7168                                     39766                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.comshapes               
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               343.03                    7168                                     39724                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ecorrgeneral            
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               341.96                    7168                                     39658                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R21Precision
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               341.05                    7168                                     39613                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R21Precision_2022v1
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               340.24                    7168                                     39565                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R22v1
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               339.44                    7168                                     39518                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10WZTruthLabel_R22v1
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               338.67                    7168                                     39492                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.emscalemom_AntiKt10UFOCSSKSoftDropBeta100Zcut10
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               338.30                    7168                                     39454                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.jetenslargeR            
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               336.90                    7168                                     39409                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.constitFrac             
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               336.61                    7168                                     39395                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.groomMRatio             
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               336.44                    7168                                     39385                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.BoostedJetTaggerTool-Top
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               336.21                    25156                                    1681                                                    ToolSvc.TrigDecisionTool.Navigation                                        
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               336.04                    7168                                     39300                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.BoostedJetTaggerTool-Top.MLHelper
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               318.50                    2048                                     1383                                                    ToolSvc.ElectronPassDNNMediumNoCF                                          
+2026-02-12 18:37:11,608 PerfMonMTSvc                                         INFO Initialize 1               316.21                    1024                                     1384                                                    ToolSvc.ElectronPassDNNVeryLooseNoCF97                                     
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO Initialize 1               316.20                    4096                                     1384                                                    ToolSvc.ElectronPassDNNMedium                                              
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO Initialize 1               316.17                    1024                                     1383                                                    ToolSvc.ElectronPassDNNLooseNoCF                                           
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO Initialize 1               314.86                    1024                                     1383                                                    ToolSvc.ElectronPassDNNTightNoCF                                           
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO Initialize 1               314.75                    0                                        1384                                                    ToolSvc.ElectronPassDNNTight                                               
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               2681.88                   240360                                   229391                                                  CondInputLoader                                                            
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               1382.38                   143360                                   140697                                                  AtlasTrackingGeometryCondAlg                                               
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               1137.51                   269976                                   166072                                                  AtlasFieldMapCondAlg                                                       
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               354.52                    83968                                    178281                                                  MuonDetectorCondAlg                                                        
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               330.42                    107520                                   106955                                                  TRTAlignCondAlg                                                            
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               121.50                    53696                                    58445                                                   CaloAlignCondAlg                                                           
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               100.09                    6144                                     6055                                                    SCT_AlignCondAlg                                                           
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               29.57                     16244                                    15056                                                   AthReadAlg_AllCalo                                                         
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               25.68                     5120                                     4942                                                    CaloSuperCellAlignCondAlg                                                  
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               21.87                     0                                        1991                                                    PixelAlignCondAlg                                                          
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               16.32                     0                                        148                                                     NswPassivationDbAlg                                                        
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               13.14                     8192                                     7862                                                    SCT_DetectorElementCondAlg                                                 
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               3.12                      2048                                     1973                                                    PixelDetectorElementCondAlg                                                
+2026-02-12 18:37:11,609 PerfMonMTSvc                                         INFO FirstEvent 1               0.75                      0                                        16                                                      LArAlignCondAlg                                                            
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO FirstEvent 1               0.44                      0                                        7                                                       BunchCrossingCondAlgDefault                                                
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO FirstEvent 1               0.20                      0                                        1                                                       BeamSpotCondAlg                                                            
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO FirstEvent 1               0.17                      0                                        0                                                       AtlasFieldCacheCondAlg                                                     
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               308.16                    0                                        -667874                                                 ConditionStore                                                             
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               185.74                    -64                                      -246792                                                 DetectorStore                                                              
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               143.09                    -65548                                   -294926                                                 ToolSvc                                                                    
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               60.76                     0                                        -64959                                                  RDBAccessSvc                                                               
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               13.87                     0                                        -16168                                                  StoreGateSvc                                                               
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               10.45                     0                                        -15548                                                  ToolSvc.DiTauIDDecoratorWrapper.DiTauRec_OnnxScoreCalculator               
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               6.69                      0                                        -51130                                                  Gaudi::MultiFileCatalog                                                    
+2026-02-12 18:37:11,610 PerfMonMTSvc                                         INFO Finalize   1               2.77                      0                                        -3104                                                   DetDescrCnvSvc                                                             
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               2.32                      0                                        -13315                                                  MetaDataStore                                                              
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               1.90                      0                                        -9850                                                   InputMetaDataStore                                                         
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.68                      0                                        6                                                       AntiKt4TruthJets                                                           
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.63                      0                                        -768                                                    IOVDbSvc                                                                   
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.39                      0                                        3                                                       AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                                   
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.28                      0                                        2                                                       AntiKt4EMTopoJets                                                          
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.27                      0                                        -0                                                      EGammaCommonKernel                                                         
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.25                      0                                        -3                                                      PoolSvc                                                                    
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.24                      0                                        2                                                       EventCleanSeq                                                              
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.19                      0                                        1                                                       AntiKt4EMPFlowJets                                                         
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.19                      0                                        -1                                                      ChronoStatSvc                                                              
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.15                      0                                        -4                                                      ToolSvc.PHYSDiTauLowPtTPThinningTool                                       
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.15                      0                                        0                                                       FourLeptonVertexAlg                                                        
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.13                      0                                        0                                                       antikt10ufocssksoftdropbeta100zcut10_sv1flip_secvtxfinding.IDVKalVxInJetFlip
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.13                      0                                        1                                                       AntiKtVR30Rmax4Rmin02PV0TrackJets                                          
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.13                      0                                        -0                                                      MCTruthClassificationKernel                                                
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.12                      0                                        1                                                       AntiKt10LCTopoJets                                                         
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.12                      0                                        -0                                                      AthenaPoolSharedIOCnvSvc                                                   
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.11                      0                                        1                                                       AntiKt4TruthDressedWZJets                                                  
+2026-02-12 18:37:11,611 PerfMonMTSvc                                         INFO Finalize   1               0.11                      0                                        1                                                       AntiKtVR30Rmax4Rmin02TruthChargedJets                                      
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.11                      0                                        1                                                       AntiKt4TruthWZJets                                                         
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        -11                                                     EventSelector                                                              
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        -0                                                      TruthCategoriesDecorator.xAODToHepMCTool                                   
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        -0                                                      ToolSvc.TrigDecisionTool                                                   
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        1                                                       AntiKt10TruthSoftDropBeta100Zcut10Jets                                     
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        -0                                                      PHYSKernel                                                                 
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        0                                                       AllExecutedEventsCounterAlg                                                
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        -0                                                      InDetUsedInFitDecorator_0Alg                                               
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        -0                                                      TruthCategoriesDecorator.HiggsTruthCategoryTool                            
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        -4                                                      ToolSvc.PHYSDiTauLowPtThinningTool                                         
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        0                                                       antikt10ufocssksoftdropbeta100zcut10_sv1flip_secvtxfinding.IDVKalVxInJetFlip.TrkInJetType
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -24                                                     ToolSvc.CaloSurfaceBuilder                                                 
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -0                                                      ToolSvc.PHYSTrackParticleThinningTool                                      
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -0                                                      ToolSvc.DFCommonUsedInFitDecorator                                         
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      DFCommonMuonsKernel                                                        
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      IsolationBuilderNonprompt_All_MaxWeightLooseCone500                        
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      AthenaRootSharedWriterSvc                                                  
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      TauJets_MuonRM_TauIDDecorKernel                                            
+2026-02-12 18:37:11,612 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      TauTruthCommonKernel2                                                      
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      MCTruthCommonPreJetKernelNo1                                               
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      THistSvc                                                                   
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      BadBatmanAugmentation                                                      
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               25.14                     0                                        40                                                      loadCachesOverhead:COOLOFL_INDET/OFLP200                                   
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               19.54                     1024                                     3                                                       loadCachesOverhead:COOLOFL_LAR/OFLP200                                     
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               16.31                     0                                        13                                                      loadCachesOverhead:COOLOFL_TRT/OFLP200                                     
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               15.34                     1024                                     1156                                                    FldrCache:/LAR/Align                                                       
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               14.01                     0                                        3                                                       loadCachesOverhead:COOLOFL_GLOBAL/OFLP200                                  
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               13.66                     0                                        2                                                       loadCachesOverhead:COOLOFL_DCS/OFLP200                                     
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               13.58                     0                                        542                                                     FldrCache:/Indet/Align                                                     
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               13.21                     0                                        898                                                     FldrCache:/EXT/DCS/MAGNETS/SENSORDATA                                      
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               11.99                     3072                                     673                                                     loadCachesOverhead:COOLOFL_MDT/OFLP200                                     
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               11.65                     3072                                     1431                                                    FldrCache:/MDT/MM/PASSIVATION                                              
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               11.38                     0                                        753                                                     FldrCache:/TRT/Align                                                       
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               9.93                      0                                        821                                                     FldrCache:/GLOBAL/BField/Maps                                              
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               7.07                      0                                        21                                                      FldrCache:/Indet/Beampos                                                   
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               4.34                      0                                        9                                                       FldrCache:/TRT/Calib/DX                                                    
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               4.13                      0                                        18                                                      FldrCache:/Indet/IBLDist                                                   
+2026-02-12 18:37:11,613 PerfMonMTSvc                                         INFO preLoadProxy 1               3.70                      0                                        3                                                       FldrCache:/GLOBAL/TrackingGeo/LayerMaterialV2                              
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               3.61                      0                                        8                                                       FldrCache:/LAR/LArCellPositionShift                                        
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.74                      0                                        14                                                      UpdateAddr::/TagInfo                                                       
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.40                      0                                        13                                                      FldrSetup:/TagInfo                                                         
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.13                      0                                        12                                                      FldrSetup:/Indet/Align                                                     
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.10                      0                                        0                                                       FldrSetup:/GLOBAL/TrackingGeo/LayerMaterialV2                              
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.10                      0                                        22                                                      FldrSetup:/Digitization/Parameters                                         
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.07                      0                                        9                                                       FldrSetup:/TRT/Align                                                       
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.07                      0                                        10                                                      FldrSetup:/Indet/IBLDist                                                   
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.07                      0                                        0                                                       FldrSetup:LArCellPositionShift                                             
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.06                      0                                        2                                                       FldrSetup:/EXT/DCS/MAGNETS/SENSORDATA                                      
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.05                      0                                        3                                                       FldrSetup:/GLOBAL/BField/Maps                                              
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        0                                                       FldrSetup:/TRT/Calib/DX                                                    
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        -0                                                      AthenaAttributeList[/Digitization/Parameters]                              
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.03                      0                                        1                                                       FldrSetup:/MDT/MM/PASSIVATION                                              
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        2                                                       FldrSetup:/Indet/Beampos                                                   
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        -0                                                      UpdateAddr::AthenaMPEventQueue_1488672_718c774b-951a-43fe-a022-00a6cff534bf
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        -0                                                      UpdateAddr::PRESAMPLER_B_POS                                               
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        0                                                       FldrSetup:/LAR/Align                                                       
+2026-02-12 18:37:11,614 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      TRTCond::StrawDxContainer[/TRT/Calib/DX]                                   
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AthenaAttributeList[/Indet/Beampos]                                        
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/EXT/DCS/MAGNETS/SENSORDATA]                        
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AlignableTransformContainer[/TRT/Align]                                    
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/GLOBAL/BField/Maps]                                
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AlignableTransformContainer[/Indet/Align]                                  
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::HEC_NEG                                                        
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/MDT/MM/PASSIVATION]                                
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_B_NEG                                               
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CaloRec::CaloCellPositionShift[LArCellPositionShift]                       
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_EC_POS                                              
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::HEC_POS                                                        
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      DetCondKeyTrans[/LAR/Align]                                                
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/Indet/IBLDist]                                     
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/TagInfo]                                           
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_EC_NEG                                              
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,615 PerfMonMTSvc                                         INFO                                 Event Level Monitoring                                 
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO         (Only the first 10 and the last measurements are explicitly printed)
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO Event            CPU [s]      Wall [s]     Vmem [kB]    Rss [kB]     Pss [kB]     Swap [kB]   
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO                                 Snapshots Summary                                      
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO Step          dCPU [s]     dWall [s]    <CPU>   dVmem [kB]  dRss [kB]   dPss [kB]   dSwap [kB] 
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 18:37:11,616 PerfMonMTSvc                                         INFO Configure     13.78        16.37        0.84    1469164     1154304     859563      0          
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO Initialize    12.28        25.37        0.48    1884676     1342692     1327765     0          
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO FirstEvent    0.00         0.00         -nan    0           0           0           0          
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO Execute       0.00         0.00         -nan    0           0           0           0          
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO Finalize      0.80         0.87         0.92    -65612      76412       731013      0          
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO Number of events processed:         0
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO CPU usage per event [ms]:           0
+2026-02-12 18:37:11,618 PerfMonMTSvc                                         INFO Events per second:                  0.000
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO CPU utilization efficiency [%]:     63
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Max Vmem:                           0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Max Rss:                            0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Max Pss:                            0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Max Swap:                           0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Leak estimate per event Vmem:       0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO Leak estimate per event Pss:        0.00 KB
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO   >> Estimated using the last 0 measurements from the Event Level Monitoring
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO   >> Events prior to the first 25 are omitted...
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO                                   System Information                                   
+2026-02-12 18:37:11,619 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,620 PerfMonMTSvc                                         INFO CPU Model:                          Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz 24576 KB
+2026-02-12 18:37:11,620 PerfMonMTSvc                                         INFO Number of Available Cores:          32
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO Total Memory:                       251.00 GB
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO                                Environment Information                                 
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO Malloc Library:                     libtcmalloc_minimal.so
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO Math Library:                       libimf.so
+2026-02-12 18:37:11,621 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 18:37:12,394 ApplicationMgr                                       INFO Application Manager Finalized successfully

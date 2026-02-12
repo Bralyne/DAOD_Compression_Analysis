@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "daod-analysis"
+version = "1.0.0"
+description = "Performance evaluation of RNTuple vs TTree for ATLAS DAODs with stability gating."
+authors = ["Your Name <your.email@cern.ch>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+daod-analysis = "daod_analysis.main:main"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+# to allow Athena's versions to satisfy the requirement
+pandas = "^2.2.0"
+numpy = "^2.0.0"
+matplotlib = "^3.7.0"
+uproot = "^5.0.0"
+scipy = "^1.10.0"
+seaborn = "^0.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

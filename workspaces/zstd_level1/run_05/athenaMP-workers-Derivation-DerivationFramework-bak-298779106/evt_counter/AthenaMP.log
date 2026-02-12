@@ -1,0 +1,641 @@
+2026-02-12 14:46:18,506 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Logs redirected in the AthenaMP event event counter PID=1440283
+2026-02-12 14:46:18,506 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Io registry updated in the AthenaMP event event counter PID=1440283
+2026-02-12 14:46:18,516 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO File descriptors re-opened in the AthenaMP event event counter PID=1440283
+2026-02-12 14:46:18,516 PoolSvc                                              INFO I/O reinitialization...
+2026-02-12 14:46:18,516 PoolSvc                                              INFO Setting up APR FileCatalog and Streams
+2026-02-12 14:46:18,526 PoolSvc                                              INFO Resolved path (via ATLAS_POOLCOND_PATH) is /cvmfs/atlas-condb.cern.ch/repo/conditions/poolcond/PoolFileCatalog.xml
+2026-02-12 14:46:18,612 PoolSvc                                              INFO Unable find catalog apcfile:poolcond/PoolCat_oflcond.xml in $ATLAS_POOLCOND_PATH and $DATAPATH
+2026-02-12 14:46:18,612 PoolSvc                                              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
+2026-02-12 14:46:18,833 DbSession                                            INFO     Open     DbSession
+2026-02-12 14:46:18,833 Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:18,834 DbSession                                            INFO     Open     DbSession
+2026-02-12 14:46:18,834 Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:18,834 MetaDataSvc                                          INFO I/O reinitialization...
+2026-02-12 14:46:18,834 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.IOVDbMetaDataTool
+2026-02-12 14:46:18,834 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.BookkeeperTool
+2026-02-12 14:46:18,834 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.StreamDAOD_PHYS_CopyEventStreamInfo
+2026-02-12 14:46:18,834 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.TriggerMenuMetaDataTool
+2026-02-12 14:46:18,835 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.TruthMetaDataTool
+2026-02-12 14:46:18,835 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.xAODMaker::FileMetaDataTool
+2026-02-12 14:46:18,835 MetaDataSvc                                          INFO Attached MetaDataTool: ToolSvc.xAODMaker::EventFormatMetaDataTool
+2026-02-12 14:46:18,835 EventSelector                                        INFO I/O reinitialization...
+2026-02-12 14:46:18,835 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Access   DbDatabase   READ      [ROOT_All] AA21FB28-2672-434E-9813-0D7BE842151D
+2026-02-12 14:46:18,847 RootDatabase                                         INFO /eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/data/zstd_rntuple_level1.AOD.pool.root File version:1063901
+2026-02-12 14:46:18,864 StreamDAOD_PHYS                                      INFO I/O reinitialization...
+2026-02-12 14:46:18,865 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO Database being retired...
+2026-02-12 14:46:18,865 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Deaccess DbDatabase   READ      [ROOT_All] AA21FB28-2672-434E-9813-0D7BE842151D
+2026-02-12 14:46:18,865 Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:18,865 DbSession                                            INFO     Open     DbSession
+2026-02-12 14:46:18,865 Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:18,866 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Access   DbDatabase   READ      [ROOT_All] AA21FB28-2672-434E-9813-0D7BE842151D
+2026-02-12 14:46:18,874 RootDatabase                                         INFO /eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/data/zstd_rntuple_level1.AOD.pool.root File version:1063901
+2026-02-12 14:46:18,888 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Exec function in the AthenaMP Event Counter PID=1440283
+2026-02-12 14:46:18,895 ToolSvc.BookkeeperTool                               INFO Preparing local cache for source 'AA21FB28-2672-434E-9813-0D7BE842151D' with 194 variations
+2026-02-12 14:46:18,897 ToolSvc.BookkeeperTool                               INFO No incomplete bookkeepers with name 'IncompleteCutBookkeepers' in this file
+2026-02-12 14:46:18,897 ToolSvc.BookkeeperTool                               INFO No complete bookkeepers with name 'CutBookkeepers' in this file
+2026-02-12 14:46:18,921 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000000 which corresponds to Chunks start 0 and chunk size 1
+2026-02-12 14:46:18,921 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000001 which corresponds to Chunks start 1 and chunk size 1
+2026-02-12 14:46:18,921 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000002 which corresponds to Chunks start 2 and chunk size 1
+2026-02-12 14:46:18,921 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000003 which corresponds to Chunks start 3 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000004 which corresponds to Chunks start 4 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000005 which corresponds to Chunks start 5 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000006 which corresponds to Chunks start 6 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000007 which corresponds to Chunks start 7 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000008 which corresponds to Chunks start 8 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Sent to the queue 0x100000009 which corresponds to Chunks start 9 and chunk size 1
+2026-02-12 14:46:18,922 AthMpEvtLoopMgr.SharedEvtQueueProvider               INFO Done counting events and populating shared queue. Total number of events to be processed: 10, Event Chunk size in the queue is  'ChunkSize':1
+2026-02-12 14:46:18,937 ToolSvc.BookkeeperTool                               INFO Successfully copied CutBookkeepers to the output MetaDataStore
+2026-02-12 14:46:18,952 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO Database being retired...
+2026-02-12 14:46:18,953 /eos/home-b/bkamgama/draft/Run_sleep_10000/...root   INFO ->  Deaccess DbDatabase   READ      [ROOT_All] AA21FB28-2672-434E-9813-0D7BE842151D
+2026-02-12 14:46:18,954 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO in stop()
+2026-02-12 14:46:18,984 ApplicationMgr                                       INFO Application Manager Stopped successfully
+2026-02-12 14:46:19,089 CondInputLoader                                      INFO Finalizing CondInputLoader...
+2026-02-12 14:46:19,090 MCTruthClassificationKernel                          INFO ============================================================================
+2026-02-12 14:46:19,090 MCTruthClassificationKernel                          INFO  The following CP tools were called by MCTruthClassificationKernel for the whole train:
+2026-02-12 14:46:19,090 MCTruthClassificationKernel                          INFO ToolSvc.DFCommonTruthClassificationTool
+2026-02-12 14:46:19,090 MCTruthClassificationKernel                          INFO ============================================================================
+2026-02-12 14:46:19,091 PhysCommonTruthCharmKernel                           INFO ============================================================================
+2026-02-12 14:46:19,091 PhysCommonTruthCharmKernel                           INFO  The following CP tools were called by PhysCommonTruthCharmKernel for the whole train:
+2026-02-12 14:46:19,091 PhysCommonTruthCharmKernel                           INFO ToolSvc.PhysCommonTruthCharmTool
+2026-02-12 14:46:19,091 PhysCommonTruthCharmKernel                           INFO ============================================================================
+2026-02-12 14:46:19,091 MCTruthCommonHFAndDecaysKernel                       INFO ============================================================================
+2026-02-12 14:46:19,091 MCTruthCommonHFAndDecaysKernel                       INFO  The following CP tools were called by MCTruthCommonHFAndDecaysKernel for the whole train:
+2026-02-12 14:46:19,091 MCTruthCommonHFAndDecaysKernel                       INFO ToolSvc.DFCommonHFAndDecaysTool
+2026-02-12 14:46:19,091 MCTruthCommonHFAndDecaysKernel                       INFO ============================================================================
+2026-02-12 14:46:19,091 DFCommonTruthMetaDataWriterKernel                    INFO ============================================================================
+2026-02-12 14:46:19,091 DFCommonTruthMetaDataWriterKernel                    INFO  The following CP tools were called by DFCommonTruthMetaDataWriterKernel for the whole train:
+2026-02-12 14:46:19,091 DFCommonTruthMetaDataWriterKernel                    INFO ToolSvc.DFCommonTruthMetaDataWriter
+2026-02-12 14:46:19,091 DFCommonTruthMetaDataWriterKernel                    INFO ============================================================================
+2026-02-12 14:46:19,091 MCTruthCommonPreJetKernelNo1                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo1                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo1 for the whole train:
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo1                         INFO ToolSvc.DFCommonTruthMuonTool
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo1                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo2                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo2                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo2 for the whole train:
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo2                         INFO ToolSvc.DFCommonTruthElectronTool
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo2                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo3                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo3                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo3 for the whole train:
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo3                         INFO ToolSvc.DFCommonTruthPhotonToolSim
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo3                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo4                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo4                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo4 for the whole train:
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo4                         INFO ToolSvc.DFCommonTruthNeutrinoTool
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo4                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo5                         INFO ============================================================================
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo5                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo5 for the whole train:
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo5                         INFO ToolSvc.DFCommonTruthBottomTool
+2026-02-12 14:46:19,092 MCTruthCommonPreJetKernelNo5                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo6                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo6                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo6 for the whole train:
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo6                         INFO ToolSvc.DFCommonTruthTopTool
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo6                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo7                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo7                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo7 for the whole train:
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo7                         INFO ToolSvc.DFCommonTruthBosonTool
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo7                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo8                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo8                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo8 for the whole train:
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo8                         INFO ToolSvc.DFCommonTruthBSMTool
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo8                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo9                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo9                         INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo9 for the whole train:
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo9                         INFO ToolSvc.DFCommonTruthElectronIsolationTool1
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo9                         INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo10                        INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo10                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo10 for the whole train:
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo10                        INFO ToolSvc.DFCommonTruthElectronIsolationTool2
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo10                        INFO ============================================================================
+2026-02-12 14:46:19,093 MCTruthCommonPreJetKernelNo11                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo11                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo11 for the whole train:
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo11                        INFO ToolSvc.DFCommonTruthMuonIsolationTool1
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo11                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo12                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo12                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo12 for the whole train:
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo12                        INFO ToolSvc.DFCommonTruthMuonIsolationTool2
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo12                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo13                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo13                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo13 for the whole train:
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo13                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool1
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo13                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo14                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo14                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo14 for the whole train:
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo14                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool2
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo14                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo15                        INFO ============================================================================
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo15                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo15 for the whole train:
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo15                        INFO ToolSvc.DFCommonTruthPhotonIsolationTool3
+2026-02-12 14:46:19,094 MCTruthCommonPreJetKernelNo15                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo16                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo16                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo16 for the whole train:
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo16                        INFO ToolSvc.DFCommonTruthForwardProtonTool
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo16                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo17                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo17                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo17 for the whole train:
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo17                        INFO ToolSvc.DFCommonTruthElectronDressingTool
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo17                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo18                        INFO ============================================================================
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo18                        INFO  The following CP tools were called by MCTruthCommonPreJetKernelNo18 for the whole train:
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo18                        INFO ToolSvc.DFCommonTruthMuonDressingTool
+2026-02-12 14:46:19,095 MCTruthCommonPreJetKernelNo18                        INFO ============================================================================
+2026-02-12 14:46:19,096 TauTruthCommonKernel2                                INFO ============================================================================
+2026-02-12 14:46:19,096 TauTruthCommonKernel2                                INFO  The following CP tools were called by TauTruthCommonKernel2 for the whole train:
+2026-02-12 14:46:19,096 TauTruthCommonKernel2                                INFO ToolSvc.DFCommonTauJetsTruthMatchingWrapper
+2026-02-12 14:46:19,097 TauTruthCommonKernel2                                INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo1                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo1                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo1 for the whole train:
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo1                        INFO ToolSvc.DFCommonTruthTauDressingTool
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo1                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo2                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo2                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo2 for the whole train:
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo2                        INFO ToolSvc.DFCommonTruthGenFilt
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo2                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo3                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo3                        INFO  The following CP tools were called by MCTruthCommonPostJetKernelNo3 for the whole train:
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo3                        INFO ToolSvc.DFCommonTruthDressedWZQGLabelTool
+2026-02-12 14:46:19,097 MCTruthCommonPostJetKernelNo3                        INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthNavigationDecoratorKernel                     INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthNavigationDecoratorKernel                     INFO  The following CP tools were called by MCTruthNavigationDecoratorKernel for the whole train:
+2026-02-12 14:46:19,097 MCTruthNavigationDecoratorKernel                     INFO ToolSvc.DFCommonTruthNavigationDecorator
+2026-02-12 14:46:19,097 MCTruthNavigationDecoratorKernel                     INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonBosonsAndDecaysKernel                   INFO ============================================================================
+2026-02-12 14:46:19,097 MCTruthCommonBosonsAndDecaysKernel                   INFO  The following CP tools were called by MCTruthCommonBosonsAndDecaysKernel for the whole train:
+2026-02-12 14:46:19,097 MCTruthCommonBosonsAndDecaysKernel                   INFO ToolSvc.DFCommonBosonsAndDecaysTool
+2026-02-12 14:46:19,097 MCTruthCommonBosonsAndDecaysKernel                   INFO ============================================================================
+2026-02-12 14:46:19,098 MCTruthCommonBSMAndDecaysKernel                      INFO ============================================================================
+2026-02-12 14:46:19,098 MCTruthCommonBSMAndDecaysKernel                      INFO  The following CP tools were called by MCTruthCommonBSMAndDecaysKernel for the whole train:
+2026-02-12 14:46:19,098 MCTruthCommonBSMAndDecaysKernel                      INFO ToolSvc.DFCommonBSMAndDecaysTool
+2026-02-12 14:46:19,098 MCTruthCommonBSMAndDecaysKernel                      INFO ============================================================================
+2026-02-12 14:46:19,098 MCTruthCommonBornLeptonsKernel                       INFO ============================================================================
+2026-02-12 14:46:19,098 MCTruthCommonBornLeptonsKernel                       INFO  The following CP tools were called by MCTruthCommonBornLeptonsKernel for the whole train:
+2026-02-12 14:46:19,098 MCTruthCommonBornLeptonsKernel                       INFO ToolSvc.DFCommonBornLeptonCollTool
+2026-02-12 14:46:19,098 MCTruthCommonBornLeptonsKernel                       INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo1                     INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo1                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo1 for the whole train:
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo1                     INFO ToolSvc.ElMiniCollectionTruthLinkTool
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo1                     INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo2                     INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo2                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo2 for the whole train:
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo2                     INFO ToolSvc.PhMiniCollectionTruthLinkTool
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo2                     INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo3                     INFO ============================================================================
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo3                     INFO  The following CP tools were called by MiniCollectionTruthLinkKernelNo3 for the whole train:
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo3                     INFO ToolSvc.MuMiniCollectionTruthLinkTool
+2026-02-12 14:46:19,098 MiniCollectionTruthLinkKernelNo3                     INFO ============================================================================
+2026-02-12 14:46:19,099 MCTruthCommonTruthPVCollKernel                       INFO ============================================================================
+2026-02-12 14:46:19,099 MCTruthCommonTruthPVCollKernel                       INFO  The following CP tools were called by MCTruthCommonTruthPVCollKernel for the whole train:
+2026-02-12 14:46:19,099 MCTruthCommonTruthPVCollKernel                       INFO ToolSvc.DFCommonTruthPVCollTool
+2026-02-12 14:46:19,099 MCTruthCommonTruthPVCollKernel                       INFO ============================================================================
+2026-02-12 14:46:19,099 DFCommonHSDecorator                                  INFO ============================================================================
+2026-02-12 14:46:19,099 DFCommonHSDecorator                                  INFO  The following CP tools were called by DFCommonHSDecorator for the whole train:
+2026-02-12 14:46:19,099 DFCommonHSDecorator                                  INFO ToolSvc.HardScatterDecorTool
+2026-02-12 14:46:19,099 DFCommonHSDecorator                                  INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonTrackSelection              INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonTrackSelection              INFO  The following CP tools were called by InDetCommonKernelDFCommonTrackSelection for the whole train:
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonTrackSelection              INFO ToolSvc.DFCommonTrackSelection
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonTrackSelection              INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonZ0AtPV                      INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonZ0AtPV                      INFO  The following CP tools were called by InDetCommonKernelDFCommonZ0AtPV for the whole train:
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonZ0AtPV                      INFO ToolSvc.DFCommonZ0AtPV
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonZ0AtPV                      INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ============================================================================
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonUsedInFitDecorator          INFO  The following CP tools were called by InDetCommonKernelDFCommonUsedInFitDecorator for the whole train:
+2026-02-12 14:46:19,099 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ToolSvc.DFCommonUsedInFitDecorator
+2026-02-12 14:46:19,100 InDetCommonKernelDFCommonUsedInFitDecorator          INFO ============================================================================
+2026-02-12 14:46:19,100 DFCommonMuonsKernel                                  INFO ============================================================================
+2026-02-12 14:46:19,100 DFCommonMuonsKernel                                  INFO  The following CP tools were called by DFCommonMuonsKernel for the whole train:
+2026-02-12 14:46:19,100 DFCommonMuonsKernel                                  INFO ToolSvc.DFCommonMuonToolWrapperIDCuts
+2026-02-12 14:46:19,100 DFCommonMuonsKernel                                  INFO ToolSvc.DFCommonMuonToolWrapperPreselection
+2026-02-12 14:46:19,100 DFCommonMuonsKernel                                  INFO ============================================================================
+2026-02-12 14:46:19,100 IsolationBuilderNonpro...All_MaxWeightLooseCone500   INFO Finalizing IsolationBuilderNonprompt_All_MaxWeightLooseCone500...
+2026-02-12 14:46:19,100 IsolationBuilderNonprompt_All_MaxWeight500           INFO Finalizing IsolationBuilderNonprompt_All_MaxWeight500...
+2026-02-12 14:46:19,100 IsolationBuilderNonpro...ll_MaxWeightLooseCone1000   INFO Finalizing IsolationBuilderNonprompt_All_MaxWeightLooseCone1000...
+2026-02-12 14:46:19,100 IsolationBuilderNonprompt_All_MaxWeight1000          INFO Finalizing IsolationBuilderNonprompt_All_MaxWeight1000...
+2026-02-12 14:46:19,100 EGammaCommonKernel                                   INFO ============================================================================
+2026-02-12 14:46:19,100 EGammaCommonKernel                                   INFO  The following CP tools were called by EGammaCommonKernel for the whole train:
+2026-02-12 14:46:19,100 EGammaCommonKernel                                   INFO ToolSvc.DFCommonPhotonsDirection
+2026-02-12 14:46:19,100 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHVeryLoose
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHLoose
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHLooseBL
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHMedium
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassLHTight
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNLoose
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNMedium
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNTight
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNVeryLooseNoCF97
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNLooseNoCF
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNMediumNoCF
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassDNNTightNoCF
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMLoose
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMMedium
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassIsEMTight
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.PhotonPassCleaning
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronAdditionnalAmbiguity
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ElectronPassECIDS
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHLoose
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHMedium
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.ForwardElectronPassLHTight
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.DerivationFramework::EGammaClusterCoreCellRecovery
+2026-02-12 14:46:19,101 EGammaCommonKernel                                   INFO ToolSvc.BkgElectronClassificationTool
+2026-02-12 14:46:19,102 EGammaCommonKernel                                   INFO ToolSvc.TruthEgetIsolationTool
+2026-02-12 14:46:19,102 EGammaCommonKernel                                   INFO ToolSvc.TruthEgptIsolationTool
+2026-02-12 14:46:19,102 EGammaCommonKernel                                   INFO ============================================================================
+2026-02-12 14:46:19,102 PFlowIsolationBuilder                                INFO Finalizing PFlowIsolationBuilder...
+2026-02-12 14:46:19,103 BadBatmanAugmentation                                INFO ============================================================================
+2026-02-12 14:46:19,103 BadBatmanAugmentation                                INFO  The following CP tools were called by BadBatmanAugmentation for the whole train:
+2026-02-12 14:46:19,103 BadBatmanAugmentation                                INFO ToolSvc.BadBatmanAugmentationTool
+2026-02-12 14:46:19,103 BadBatmanAugmentation                                INFO ============================================================================
+2026-02-12 14:46:19,103 DistanceInTrainAugmentation                          INFO ============================================================================
+2026-02-12 14:46:19,103 DistanceInTrainAugmentation                          INFO  The following CP tools were called by DistanceInTrainAugmentation for the whole train:
+2026-02-12 14:46:19,103 DistanceInTrainAugmentation                          INFO ToolSvc.DistanceInTrainAugmentationTool
+2026-02-12 14:46:19,103 DistanceInTrainAugmentation                          INFO ============================================================================
+2026-02-12 14:46:19,104 TauJets_TauIDDecorKernel                             INFO ============================================================================
+2026-02-12 14:46:19,104 TauJets_TauIDDecorKernel                             INFO  The following CP tools were called by TauJets_TauIDDecorKernel for the whole train:
+2026-02-12 14:46:19,104 TauJets_TauIDDecorKernel                             INFO ToolSvc.TauJets_TauIDDecoratorWrapper
+2026-02-12 14:46:19,104 TauJets_TauIDDecorKernel                             INFO ============================================================================
+2026-02-12 14:46:19,104 TauRNNLooseAugmentationKernel                        INFO ============================================================================
+2026-02-12 14:46:19,104 TauRNNLooseAugmentationKernel                        INFO  The following CP tools were called by TauRNNLooseAugmentationKernel for the whole train:
+2026-02-12 14:46:19,104 TauRNNLooseAugmentationKernel                        INFO ToolSvc.TauRNNLooseWrapper
+2026-02-12 14:46:19,104 TauRNNLooseAugmentationKernel                        INFO ============================================================================
+2026-02-12 14:46:19,104 DFCommonMuonsKernel2                                 INFO ============================================================================
+2026-02-12 14:46:19,104 DFCommonMuonsKernel2                                 INFO  The following CP tools were called by DFCommonMuonsKernel2 for the whole train:
+2026-02-12 14:46:19,104 DFCommonMuonsKernel2                                 INFO ToolSvc.MuonJetDrTool
+2026-02-12 14:46:19,104 DFCommonMuonsKernel2                                 INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauLowPtBuilder                                    INFO Finalizing DiTauLowPtBuilder...
+2026-02-12 14:46:19,105 TauJets_MuonRM_TauIDDecorKernel                      INFO ============================================================================
+2026-02-12 14:46:19,105 TauJets_MuonRM_TauIDDecorKernel                      INFO  The following CP tools were called by TauJets_MuonRM_TauIDDecorKernel for the whole train:
+2026-02-12 14:46:19,105 TauJets_MuonRM_TauIDDecorKernel                      INFO ToolSvc.TauJets_MuonRM_TauIDDecoratorWrapper
+2026-02-12 14:46:19,105 TauJets_MuonRM_TauIDDecorKernel                      INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauIDDecorKernel                                   INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauIDDecorKernel                                   INFO  The following CP tools were called by DiTauIDDecorKernel for the whole train:
+2026-02-12 14:46:19,105 DiTauIDDecorKernel                                   INFO ToolSvc.DiTauIDDecoratorWrapper
+2026-02-12 14:46:19,105 DiTauIDDecorKernel                                   INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauJets_DiTauIDDecorKernel                         INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauJets_DiTauIDDecorKernel                         INFO  The following CP tools were called by DiTauJets_DiTauIDDecorKernel for the whole train:
+2026-02-12 14:46:19,105 DiTauJets_DiTauIDDecorKernel                         INFO ToolSvc.DiTauJets_DiTauChargeDecorator
+2026-02-12 14:46:19,105 DiTauJets_DiTauIDDecorKernel                         INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ============================================================================
+2026-02-12 14:46:19,105 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO  The following CP tools were called by DiTauJetsLowPt_DiTauIDDecorKernel for the whole train:
+2026-02-12 14:46:19,106 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ToolSvc.DiTauJetsLowPt_DiTauChargeDecorator
+2026-02-12 14:46:19,106 DiTauJetsLowPt_DiTauIDDecorKernel                    INFO ============================================================================
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO ============================================================================
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO || SUMMARY OF THE DERIVATION FRAMEWORK KERNEL WITH NAME PHYSKernel || 
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO ============================================================================
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO ============================================================================
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO Events analyzed: 0
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO Events accepted: 0
+2026-02-12 14:46:19,107 PHYSKernel                                           INFO ============================================================================
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO Proccessed in total 0 events. Lepton multiplicities observed:
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 0 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 1 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 2 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 3 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 4 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 5 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 6 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,107 FourLeptonVertexAlg                                  INFO     ---- Events with 7 leptons: 0 (elec/muon) 0/0 (0%)
+2026-02-12 14:46:19,108 FourLeptonVertexAlg                                  INFO ---> Attempted fits 0 out of which 0 (0%) succeeded.
+2026-02-12 14:46:19,108 HFClassificationCommonKernel                         INFO ============================================================================
+2026-02-12 14:46:19,108 HFClassificationCommonKernel                         INFO  The following CP tools were called by HFClassificationCommonKernel for the whole train:
+2026-02-12 14:46:19,108 HFClassificationCommonKernel                         INFO ToolSvc.DFCommonClassifyAndCalculateHFAugmentation
+2026-02-12 14:46:19,108 HFClassificationCommonKernel                         INFO ============================================================================
+2026-02-12 14:46:19,108 MCTruthCommonTausAndDecaysKernel                     INFO ============================================================================
+2026-02-12 14:46:19,108 MCTruthCommonTausAndDecaysKernel                     INFO  The following CP tools were called by MCTruthCommonTausAndDecaysKernel for the whole train:
+2026-02-12 14:46:19,108 MCTruthCommonTausAndDecaysKernel                     INFO ToolSvc.DFCommonTausAndDecaysTool
+2026-02-12 14:46:19,108 MCTruthCommonTausAndDecaysKernel                     INFO ============================================================================
+2026-02-12 14:46:19,108 AllExecutedEventsCounterAlg                          INFO accepted 0 out of 0 events for filter AllExecutedEvents (Number of processed events before any cut)
+2026-02-12 14:46:19,109 DecisionSvc                                          INFO Finalized successfully.
+2026-02-12 14:46:19,109 AthDictLoaderSvc                                     INFO in finalize...
+2026-02-12 14:46:19,701 Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats Timing Measurements for AthenaPoolCnvSvc
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cObjR_ALL       |            3809 ms |
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | fRep_ALL        |              25 ms |
+2026-02-12 14:46:19,702 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cObj_ALL        |            4525 ms |
+2026-02-12 14:46:19,703 AthenaPoolSharedIOCnvSvc                             INFO PerfStats | cRep_ALL        |              23 ms |
+2026-02-12 14:46:19,703 AthenaPoolSharedIOCnvSvc                             INFO PerfStats ----------------------------------------
+2026-02-12 14:46:19,703 Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All]
+2026-02-12 14:46:19,707 IOVDbFolder                                          INFO Folder /Digitization/Parameters (AttrList) db-read 0/1 objs/chan/bytes 1/0/0 ((     0.00 ))s
+2026-02-12 14:46:19,707 IOVDbFolder                                          INFO Folder /EXT/DCS/MAGNETS/SENSORDATA (AttrListColl) db-read 1/1 objs/chan/bytes 4/4/20 ((     0.03 ))s
+2026-02-12 14:46:19,707 IOVDbFolder                                          INFO Folder /GLOBAL/BField/Maps (AttrListColl) db-read 1/1 objs/chan/bytes 3/3/202 ((     0.03 ))s
+2026-02-12 14:46:19,707 IOVDbFolder                                          INFO Folder /GLOBAL/TrackingGeo/LayerMaterialV2 (PoolRef) db-read 1/1 objs/chan/bytes 1/1/231 ((     0.01 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /Indet/Align (PoolRefColl) db-read 1/1 objs/chan/bytes 43/43/7009 ((     0.03 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /Indet/Beampos (AttrList) db-read 1/1 objs/chan/bytes 6/1/456 ((     0.02 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /Indet/IBLDist (AttrListColl) db-read 1/1 objs/chan/bytes 14/14/280 ((     0.02 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /LAR/Align (PoolRef) db-read 1/1 objs/chan/bytes 1/1/170 ((     0.04 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /MDT/MM/PASSIVATION (AttrListColl) db-read 1/1 objs/chan/bytes 1/1/680679 ((     0.03 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /TRT/Align (PoolRefColl) db-read 1/1 objs/chan/bytes 32/32/5120 ((     0.03 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /TRT/Calib/DX (PoolRef) db-read 1/1 objs/chan/bytes 1/1/183 ((     0.02 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /TagInfo (AttrListColl) db-read 0/1 objs/chan/bytes 1/0/0 ((     0.00 ))s
+2026-02-12 14:46:19,708 IOVDbFolder                                          INFO Folder /LAR/LArCellPositionShift (PoolRef) db-read 1/1 objs/chan/bytes 1/1/195 ((     0.01 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Total payload read from IOVDb: 694545 bytes in ((      0.27 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Connection sqlite://;schema=mycool.db;dbname=OFLP200 : nConnect: 0 nFolders: 0 ReadTime: ((     0.00 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Connection COOLOFL_LAR/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.05 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Connection COOLOFL_GLOBAL/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.04 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Connection COOLOFL_DCS/OFLP200 : nConnect: 2 nFolders: 1 ReadTime: ((     0.03 ))s
+2026-02-12 14:46:19,708 IOVDbSvc                                             INFO Connection COOLOFL_INDET/OFLP200 : nConnect: 2 nFolders: 3 ReadTime: ((     0.07 ))s
+2026-02-12 14:46:19,709 IOVDbSvc                                             INFO Connection COOLOFL_MDT/OFLP200 : nConnect: 2 nFolders: 1 ReadTime: ((     0.03 ))s
+2026-02-12 14:46:19,709 IOVDbSvc                                             INFO Connection COOLOFL_TRT/OFLP200 : nConnect: 2 nFolders: 2 ReadTime: ((     0.05 ))s
+2026-02-12 14:46:19,709 ToolSvc                                              INFO Removing all tools created by ToolSvc
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ---- FinalizingTruthCategoriesDecorator.HiggsTruthCategoryTool...
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.HiggsTruthCategoryTool      INFO  ====================================================== 
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==========    xAOD -> HepMC Tool :: Run Summary     ==========
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO No missing production vertices
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO No events with undefined beams.
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ===================    End Run Summary     ===================
+2026-02-12 14:46:19,710 TruthCategoriesDecorator.xAODToHepMCTool             INFO ==============================================================
+2026-02-12 14:46:19,711 ToolSvc.PHYSDiTauLowPtTPThinningTool                 INFO Processed 0 tracks, 0 were retained 
+2026-02-12 14:46:19,711 ToolSvc.PHYSDiTauLowPtThinningTool                   INFO Processed 0 objects, 0 were retained 
+2026-02-12 14:46:19,711 ToolSvc.PHYSDiTauTPThinningTool                      INFO Processed 0 tracks, 0 were retained 
+2026-02-12 14:46:19,711 ToolSvc.PHYSDiTauThinningTool                        INFO Processed 0 objects, 0 were retained 
+2026-02-12 14:46:19,711 ToolSvc.PHYSTauJets_MuonRMThinningTool               INFO Processed 0 taus, 0 were kept
+2026-02-12 14:46:19,711 ToolSvc.PHYSTauJetThinningTool                       INFO Processed 0 taus, 0 were kept
+2026-02-12 14:46:19,711 ToolSvc.PHYSMuonTPThinningTool                       INFO Processed 0 tracks, 0 were retained 
+2026-02-12 14:46:19,711 ToolSvc.PHYSTrackParticleThinningTool                INFO Processed 0 tracks, 0 were retained 
+2026-02-12 14:46:19,712 ToolSvc.TrigDecisionTool                             INFO Finalized
+2026-02-12 14:46:19,712 METAssociat...MET_AssociationTool_AntiKt4EMPFlowHR   INFO Finalizing METAssociation_AntiKt4EMPFlowHR.MET_AssociationTool_AntiKt4EMPFlowHR...
+2026-02-12 14:46:19,712 METAssociatio...MET_AssociationTool_AntiKt4EMPFlow   INFO Finalizing METAssociation_AntiKt4EMPFlow.MET_AssociationTool_AntiKt4EMPFlow...
+2026-02-12 14:46:19,712 METAssociation...MET_AssociationTool_AntiKt4EMTopo   INFO Finalizing METAssociation_AntiKt4EMTopo.MET_AssociationTool_AntiKt4EMTopo...
+2026-02-12 14:46:19,712 JetTagVertexDecoratorAlgAntiKt10UFO...JFVarFactory   INFO  Finalization of JetFitterVariablesFactory successful
+2026-02-12 14:46:19,712 JetTagVertexDecoratorAlgAntiKt10...Analysis::SVTag   INFO #BTAG# Number of jets used for calibration for reference ALL : #b= 0 #light= 0 #charm= 0
+2026-02-12 14:46:19,713 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,713 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,713 JetTagVertexDecoratorAlgAntiKt4EMPF...JFVarFactory   INFO  Finalization of JetFitterVariablesFactory successful
+2026-02-12 14:46:19,713 JetTagVertexDecoratorAlgAntiKt4E...Analysis::SVTag   INFO #BTAG# Number of jets used for calibration for reference ALL : #b= 0 #light= 0 #charm= 0
+2026-02-12 14:46:19,713 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,713 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,718 METRecoAlg_Truth.MET_RegionTool_Truth                INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth...
+2026-02-12 14:46:19,718 METRecoAlg_Truth.MET_RecoTool_Truth                  INFO Finalizing METRecoAlg_Truth.MET_RecoTool_Truth...
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthForwardProtonTool               INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthBSMTool                         INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthBosonTool                       INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthTopTool                         INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthBottomTool                      INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthNeutrinoTool                    INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,720 ToolSvc.DFCommonTruthPhotonToolSim                   INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,721 ToolSvc.DFCommonTruthElectronTool                    INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,721 ToolSvc.DFCommonTruthMuonTool                        INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,721 ToolSvc.PhysCommonTruthCharmTool                     INFO Processed 0 truth particles, 0 were retained 
+2026-02-12 14:46:19,721 ToolSvc.DFCommonTruthClassificationTool              INFO Processed and decorated 0 truth particles
+2026-02-12 14:46:19,721 AthenaPoolSharedIOCnvSvc.OutputStreamingTool         INFO in finalize()
+2026-02-12 14:46:19,733 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,733 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,733 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,734 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,734 ToolSvc.DiTauIDDeco...DiTauRec_OnnxScoreCalculator   INFO Finalizing DiTauOnnxDiscriminantTool
+2026-02-12 14:46:19,749 METRecoAlg_Truth.MET_R...MET_IntMuonsRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntMuonsRegions_Truth...
+2026-02-12 14:46:19,750 METRecoAlg_Truth.MET_Reg...MET_IntOutRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntOutRegions_Truth...
+2026-02-12 14:46:19,750 METRecoAlg_Truth.MET_Region...MET_IntRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_IntRegions_Truth...
+2026-02-12 14:46:19,750 METRecoAlg_Truth.MET_Reg...MET_NonIntRegions_Truth   INFO Finalizing METRecoAlg_Truth.MET_RegionTool_Truth.MET_NonIntRegions_Truth...
+2026-02-12 14:46:19,751 AtlasTrackingGeometryCond...MuonStationTypeBuilder   INFO  finalize() successful
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/2404.15984 and https://arxiv.org/abs/2312.15070
+2026-02-12 14:46:19,857 PerfMonMTSvc                                         INFO Finalizing PerfMonMTSvc
+2026-02-12 14:46:19,857 IdDictDetDescrCnv                                    INFO in finalize
+2026-02-12 14:46:19,860 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 14:46:19,860 *****Chrono*****                                     INFO  The Final CPU consumption ( Chrono ) Table (ordered)
+2026-02-12 14:46:19,860 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 14:46:19,861 ChronoStatSvc                                        INFO Time User   : Tot=-1.39e+07 [us]  #=  1
+2026-02-12 14:46:19,861 InDetVKalVxInJetTool                                 INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,861 InDet_TrkInJetType                                   INFO Time User   : Tot=    0 [us]  #=  0
+2026-02-12 14:46:19,861 *****Chrono*****                                     INFO ****************************************************************************************************
+2026-02-12 14:46:19,861 ChronoStatSvc.finalize()                             INFO  Service finalized successfully 
+2026-02-12 14:46:19,861 FPEAuditor                                           INFO FPE summary for this job
+2026-02-12 14:46:19,861 FPEAuditor                                           INFO  FPE OVERFLOWs  : 0
+2026-02-12 14:46:19,861 FPEAuditor                                           INFO  FPE INVALIDs   : 0
+2026-02-12 14:46:19,861 FPEAuditor                                           INFO  FPE DIVBYZEROs : 0
+2026-02-12 14:46:19,960 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,960 PerfMonMTSvc                                         INFO                                  PerfMonMTSvc Report                                   
+2026-02-12 14:46:19,960 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,960 PerfMonMTSvc                                         INFO *** Full set of information can also be found in: perfmonmt_Derivation.json
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO *** In order to make plots using the results run the following commands:
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO *** $ perfmonmt-plotter.py -i perfmonmt_Derivation.json
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO *** In order to print tables using the results run the following commands:
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO *** $ perfmonmt-printer.py -i perfmonmt_Derivation.json
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO                              Component Level Monitoring                                
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO Step       Count           CPU Time [ms]             Vmem [kB]                                Malloc [kB]                                             Component                                                                  
+2026-02-12 14:46:19,961 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               3017.52                   128152                                   33760                                                   EGammaCommonKernel                                                         
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               591.45                    35596                                    13247                                                   MuonRemovalTauAODReRecoAlg                                                 
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               485.25                    34356                                    74752                                                   AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                                   
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               433.57                    10972                                    7584                                                    DFCommonMuonsKernel                                                        
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               419.13                    27648                                    73350                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                         
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               416.30                    8424                                     7460                                                    ToolSvc.DFCommonMuonToolWrapperIDCuts                                      
+2026-02-12 14:46:19,980 PerfMonMTSvc                                         INFO Initialize 1               410.40                    7832                                     7378                                                    ToolSvc.DFCommonMuonsSelector                                              
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               406.55                    46276                                    67585                                                   AntiKt4EMPFlowJets                                                         
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               403.61                    46276                                    67283                                                   jetrecalg_AntiKt4EMPFlowJets                                               
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               403.26                    46276                                    67247                                                   jetrecalg_AntiKt4EMPFlowJets.emscalemom_AntiKt4EMPFlow                     
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               402.91                    46276                                    67210                                                   jetrecalg_AntiKt4EMPFlowJets.jetens                                        
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               399.92                    46276                                    66960                                                   jetrecalg_AntiKt4EMPFlowJets.width                                         
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               399.72                    46276                                    66951                                                   jetrecalg_AntiKt4EMPFlowJets.caloqual                                      
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               399.06                    46276                                    66919                                                   jetrecalg_AntiKt4EMPFlowJets.trkmoms                                       
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               398.07                    46276                                    66847                                                   jetrecalg_AntiKt4EMPFlowJets.trksummoms                                    
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               397.64                    46276                                    66786                                                   jetrecalg_AntiKt4EMPFlowJets.jvf                                           
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               397.19                    46276                                    66724                                                   jetrecalg_AntiKt4EMPFlowJets.jvt                                           
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               395.27                    46276                                    66586                                                   jetrecalg_AntiKt4EMPFlowJets.larhvcorr                                     
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               395.09                    46276                                    66576                                                   jetrecalg_AntiKt4EMPFlowJets.iso                                           
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               394.88                    46276                                    66561                                                   jetrecalg_AntiKt4EMPFlowJets.jetPtAssociation                              
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               394.70                    46276                                    66542                                                   jetrecalg_AntiKt4EMPFlowJets.qgtagging                                     
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               393.70                    46276                                    66462                                                   jetrecalg_AntiKt4EMPFlowJets.nnjvt                                         
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               391.58                    46276                                    66424                                                   jetrecalg_AntiKt4EMPFlowJets.fJVT                                          
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               367.66                    79640                                    3659                                                    ToolSvc.ElectronPassDNNLoose                                               
+2026-02-12 14:46:19,981 PerfMonMTSvc                                         INFO Initialize 1               344.89                    28136                                    1972                                                    TrigNavSlimmingMTAlg_DAOD                                                  
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               337.37                    78848                                    3449                                                    ToolSvc.ElectronPassDNNLoose.ElectronDNNSelectorLoose                      
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               328.66                    1024                                     1384                                                    ToolSvc.ElectronPassDNNVeryLooseNoCF97                                     
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               326.66                    8192                                     39912                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.width                   
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               326.39                    8192                                     39894                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.nsubjettiness           
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               325.27                    8192                                     39849                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ktsplitter              
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               324.78                    8192                                     39827                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ecorr                   
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               324.14                    8192                                     39796                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.qw                      
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               323.60                    8192                                     39766                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.comshapes               
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               323.54                    1024                                     1255                                                    ToolSvc.ElectronPassDNNVeryLooseNoCF97.ElectronDNNSelectorVeryLooseNoCF97  
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               322.74                    8192                                     39724                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.ecorrgeneral            
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               321.71                    8192                                     39658                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R21Precision
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               320.83                    8192                                     39613                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R21Precision_2022v1
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               320.03                    8192                                     39565                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10TruthLabel_R22v1
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               319.27                    8192                                     39518                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.truthlabeler_R10WZTruthLabel_R22v1
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               318.55                    8192                                     39492                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.emscalemom_AntiKt10UFOCSSKSoftDropBeta100Zcut10
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               318.22                    8192                                     39454                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.jetenslargeR            
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               316.92                    8192                                     39409                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.constitFrac             
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               316.63                    8192                                     39395                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.groomMRatio             
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               316.48                    8192                                     39385                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.BoostedJetTaggerTool-Top
+2026-02-12 14:46:19,982 PerfMonMTSvc                                         INFO Initialize 1               316.12                    8192                                     39300                                                   jetrecalg_AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets.BoostedJetTaggerTool-Top.MLHelper
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO Initialize 1               314.38                    24132                                    1675                                                    ToolSvc.TrigDecisionTool.Navigation                                        
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO Initialize 1               308.00                    2048                                     1383                                                    ToolSvc.ElectronPassDNNTightNoCF                                           
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO Initialize 1               306.49                    1024                                     1384                                                    ToolSvc.ElectronPassDNNTight                                               
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO Initialize 1               306.21                    1024                                     1383                                                    ToolSvc.ElectronPassDNNMediumNoCF                                          
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO Initialize 1               305.40                    5120                                     1384                                                    ToolSvc.ElectronPassDNNMedium                                              
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               2557.62                   235712                                   228323                                                  CondInputLoader                                                            
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               1369.55                   141312                                   140697                                                  AtlasTrackingGeometryCondAlg                                               
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               1128.76                   261784                                   166070                                                  AtlasFieldMapCondAlg                                                       
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               355.74                    83968                                    178281                                                  MuonDetectorCondAlg                                                        
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               326.47                    115712                                   106955                                                  TRTAlignCondAlg                                                            
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               120.04                    54720                                    58445                                                   CaloAlignCondAlg                                                           
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               98.64                     7168                                     6055                                                    SCT_AlignCondAlg                                                           
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               28.18                     37172                                    35705                                                   AthReadAlg_AllCalo                                                         
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               25.34                     5120                                     4942                                                    CaloSuperCellAlignCondAlg                                                  
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               21.59                     0                                        1991                                                    PixelAlignCondAlg                                                          
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               17.02                     0                                        148                                                     NswPassivationDbAlg                                                        
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               12.67                     7168                                     7862                                                    SCT_DetectorElementCondAlg                                                 
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               3.05                      2048                                     1973                                                    PixelDetectorElementCondAlg                                                
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               0.81                      0                                        16                                                      LArAlignCondAlg                                                            
+2026-02-12 14:46:19,983 PerfMonMTSvc                                         INFO FirstEvent 1               0.41                      0                                        7                                                       BunchCrossingCondAlgDefault                                                
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO FirstEvent 1               0.19                      0                                        1                                                       BeamSpotCondAlg                                                            
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO FirstEvent 1               0.15                      0                                        0                                                       AtlasFieldCacheCondAlg                                                     
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               338.43                    0                                        -667871                                                 ConditionStore                                                             
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               184.71                    -64                                      -246792                                                 DetectorStore                                                              
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               137.27                    0                                        -300294                                                 ToolSvc                                                                    
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               65.56                     0                                        -64959                                                  RDBAccessSvc                                                               
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               14.14                     0                                        -16155                                                  StoreGateSvc                                                               
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               10.19                     0                                        -15548                                                  ToolSvc.DiTauIDDecoratorWrapper.DiTauRec_OnnxScoreCalculator               
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               4.04                      0                                        -51128                                                  Gaudi::MultiFileCatalog                                                    
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               4.01                      0                                        -13368                                                  MetaDataStore                                                              
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               2.28                      0                                        -3104                                                   DetDescrCnvSvc                                                             
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               0.63                      0                                        6                                                       AntiKt4TruthJets                                                           
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               0.56                      0                                        -768                                                    IOVDbSvc                                                                   
+2026-02-12 14:46:19,984 PerfMonMTSvc                                         INFO Finalize   1               0.38                      0                                        3                                                       AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets                                   
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.27                      0                                        2                                                       AntiKt4EMTopoJets                                                          
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.23                      0                                        2                                                       EventCleanSeq                                                              
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.22                      0                                        -0                                                      EGammaCommonKernel                                                         
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.21                      0                                        -5554                                                   InputMetaDataStore                                                         
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.20                      0                                        1                                                       AntiKt4EMPFlowJets                                                         
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.18                      0                                        -1                                                      ChronoStatSvc                                                              
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.15                      0                                        -4                                                      ToolSvc.PHYSDiTauLowPtTPThinningTool                                       
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.14                      0                                        -0                                                      MCTruthClassificationKernel                                                
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.13                      0                                        0                                                       antikt10ufocssksoftdropbeta100zcut10_sv1flip_secvtxfinding.IDVKalVxInJetFlip
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.13                      0                                        0                                                       FourLeptonVertexAlg                                                        
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.12                      0                                        1                                                       AntiKtVR30Rmax4Rmin02PV0TrackJets                                          
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.11                      0                                        -0                                                      AthenaPoolSharedIOCnvSvc                                                   
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        1                                                       AntiKt10LCTopoJets                                                         
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        1                                                       AntiKt4TruthWZJets                                                         
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        1                                                       AntiKt4TruthDressedWZJets                                                  
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        1                                                       AntiKtVR30Rmax4Rmin02TruthChargedJets                                      
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.10                      0                                        -0                                                      ToolSvc.TrigDecisionTool                                                   
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        -11                                                     EventSelector                                                              
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        1                                                       AntiKt10TruthSoftDropBeta100Zcut10Jets                                     
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        -0                                                      InDetUsedInFitDecorator_0Alg                                               
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.09                      0                                        -0                                                      PHYSKernel                                                                 
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.08                      0                                        0                                                       AllExecutedEventsCounterAlg                                                
+2026-02-12 14:46:19,985 PerfMonMTSvc                                         INFO Finalize   1               0.08                      0                                        -0                                                      TruthCategoriesDecorator.xAODToHepMCTool                                   
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.08                      0                                        -0                                                      ToolSvc.PHYSTrackParticleThinningTool                                      
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        0                                                       antikt10ufocssksoftdropbeta100zcut10_sv1flip_secvtxfinding.IDVKalVxInJetFlip.TrkInJetType
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.07                      0                                        -24                                                     ToolSvc.CaloSurfaceBuilder                                                 
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -0                                                      CondInputLoader                                                            
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -0                                                      THistSvc                                                                   
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -0                                                      ToolSvc.DFCommonUsedInFitDecorator                                         
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.06                      0                                        -4                                                      ToolSvc.PHYSDiTauLowPtThinningTool                                         
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        0                                                       StreamDAOD_PHYS                                                            
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      TruthCategoriesDecorator.HiggsTruthCategoryTool                            
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      IsolationBuilderNonprompt_All_MaxWeightLooseCone500                        
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      ToolSvc.DFCommonTruthForwardProtonTool                                     
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      PFlowIsolationBuilder                                                      
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      BeginIncFiringAlg                                                          
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -0                                                      BadBatmanAugmentation                                                      
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO Finalize   1               0.05                      0                                        -2                                                      ToolSvc.PHYSTauJets_MuonRMThinningTool                                     
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO preLoadProxy 1               25.59                     0                                        40                                                      loadCachesOverhead:COOLOFL_INDET/OFLP200                                   
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO preLoadProxy 1               19.60                     1024                                     3                                                       loadCachesOverhead:COOLOFL_LAR/OFLP200                                     
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO preLoadProxy 1               15.54                     0                                        13                                                      loadCachesOverhead:COOLOFL_TRT/OFLP200                                     
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO preLoadProxy 1               14.81                     1024                                     1156                                                    FldrCache:/LAR/Align                                                       
+2026-02-12 14:46:19,986 PerfMonMTSvc                                         INFO preLoadProxy 1               13.94                     0                                        3                                                       loadCachesOverhead:COOLOFL_GLOBAL/OFLP200                                  
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               13.86                     0                                        542                                                     FldrCache:/Indet/Align                                                     
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               13.40                     0                                        2                                                       loadCachesOverhead:COOLOFL_DCS/OFLP200                                     
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               12.97                     0                                        898                                                     FldrCache:/EXT/DCS/MAGNETS/SENSORDATA                                      
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               12.53                     3072                                     673                                                     loadCachesOverhead:COOLOFL_MDT/OFLP200                                     
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               11.88                     3072                                     1431                                                    FldrCache:/MDT/MM/PASSIVATION                                              
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               11.04                     0                                        753                                                     FldrCache:/TRT/Align                                                       
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               9.81                      0                                        821                                                     FldrCache:/GLOBAL/BField/Maps                                              
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               7.09                      0                                        21                                                      FldrCache:/Indet/Beampos                                                   
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               4.23                      0                                        18                                                      FldrCache:/Indet/IBLDist                                                   
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               4.05                      0                                        8                                                       FldrCache:/LAR/LArCellPositionShift                                        
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               4.03                      0                                        9                                                       FldrCache:/TRT/Calib/DX                                                    
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               3.76                      0                                        3                                                       FldrCache:/GLOBAL/TrackingGeo/LayerMaterialV2                              
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.79                      0                                        14                                                      UpdateAddr::/TagInfo                                                       
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.44                      0                                        13                                                      FldrSetup:/TagInfo                                                         
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.30                      0                                        22                                                      FldrSetup:/Digitization/Parameters                                         
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.14                      0                                        12                                                      FldrSetup:/Indet/Align                                                     
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.09                      0                                        0                                                       FldrSetup:LArCellPositionShift                                             
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.08                      0                                        0                                                       FldrSetup:/GLOBAL/TrackingGeo/LayerMaterialV2                              
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.07                      0                                        10                                                      FldrSetup:/Indet/IBLDist                                                   
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.06                      0                                        9                                                       FldrSetup:/TRT/Align                                                       
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.06                      0                                        2                                                       FldrSetup:/EXT/DCS/MAGNETS/SENSORDATA                                      
+2026-02-12 14:46:19,987 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        3                                                       FldrSetup:/GLOBAL/BField/Maps                                              
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        0                                                       FldrSetup:/TRT/Calib/DX                                                    
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        -0                                                      AthenaAttributeList[/Digitization/Parameters]                              
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.04                      0                                        1                                                       FldrSetup:/MDT/MM/PASSIVATION                                              
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        2                                                       FldrSetup:/Indet/Beampos                                                   
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        -0                                                      UpdateAddr::AthenaMPEventQueue_1439847_335da0dc-8a20-4ada-8e7e-4df5da4df85b
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.02                      0                                        -0                                                      UpdateAddr::PRESAMPLER_B_POS                                               
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        0                                                       FldrSetup:/LAR/Align                                                       
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      DetCondKeyTrans[/LAR/Align]                                                
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/EXT/DCS/MAGNETS/SENSORDATA]                        
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::HEC_POS                                                        
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AthenaAttributeList[/Indet/Beampos]                                        
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_EC_POS                                              
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_B_NEG                                               
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/GLOBAL/BField/Maps]                                
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::HEC_NEG                                                        
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AlignableTransformContainer[/Indet/Align]                                  
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/MDT/MM/PASSIVATION]                                
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      Trk::LayerMaterialMap[/GLOBAL/TrackingGeo/LayerMaterialV2]                 
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/Indet/IBLDist]                                     
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      UpdateAddr::PRESAMPLER_EC_NEG                                              
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      TRTCond::StrawDxContainer[/TRT/Calib/DX]                                   
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      CondAttrListCollection[/TagInfo]                                           
+2026-02-12 14:46:19,988 PerfMonMTSvc                                         INFO preLoadProxy 1               0.01                      0                                        -0                                                      AlignableTransformContainer[/TRT/Align]                                    
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO                                 Event Level Monitoring                                 
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO         (Only the first 10 and the last measurements are explicitly printed)
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Event            CPU [s]      Wall [s]     Vmem [kB]    Rss [kB]     Pss [kB]     Swap [kB]   
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO                                 Snapshots Summary                                      
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Step          dCPU [s]     dWall [s]    <CPU>   dVmem [kB]  dRss [kB]   dPss [kB]   dSwap [kB] 
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO ---------------------------------------------------------------------------------------
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Configure     11.89        14.28        0.83    1414644     1105452     618296      0          
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Initialize    11.83        25.94        0.46    1907572     1275368     1282593     0          
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO FirstEvent    0.00         0.00         -nan    0           0           0           0          
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Execute       0.00         0.00         -nan    0           0           0           0          
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Finalize      0.84         0.87         0.96    -64         85604       868324      0          
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Number of events processed:         0
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO CPU usage per event [ms]:           0
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Events per second:                  0.000
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO CPU utilization efficiency [%]:     59
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 14:46:19,989 PerfMonMTSvc                                         INFO Max Vmem:                           0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO Max Rss:                            0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO Max Pss:                            0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO Max Swap:                           0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO ***************************************************************************************
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO Leak estimate per event Vmem:       0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO Leak estimate per event Pss:        0.00 KB
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO   >> Estimated using the last 0 measurements from the Event Level Monitoring
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO   >> Events prior to the first 25 are omitted...
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO                                   System Information                                   
+2026-02-12 14:46:19,990 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,991 PerfMonMTSvc                                         INFO CPU Model:                          Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz 24576 KB
+2026-02-12 14:46:19,991 PerfMonMTSvc                                         INFO Number of Available Cores:          32
+2026-02-12 14:46:19,991 PerfMonMTSvc                                         INFO Total Memory:                       251.00 GB
+2026-02-12 14:46:19,991 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,991 PerfMonMTSvc                                         INFO                                Environment Information                                 
+2026-02-12 14:46:19,992 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:19,992 PerfMonMTSvc                                         INFO Malloc Library:                     libtcmalloc_minimal.so
+2026-02-12 14:46:19,992 PerfMonMTSvc                                         INFO Math Library:                       libimf.so
+2026-02-12 14:46:19,992 PerfMonMTSvc                                         INFO =======================================================================================
+2026-02-12 14:46:20,313 ApplicationMgr                                       INFO Application Manager Finalized successfully
