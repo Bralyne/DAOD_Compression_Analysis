@@ -57,7 +57,7 @@ $$Read_{Throughput } = \frac{Events_{total}}{Max_{CObjr}}$$
 
 * **Job throughput:** Total number of events processed divided by the total loop time, representing events processed per millisecond.
 
-$$Job_{Throughput} = \frac{Events_{total}}{Loop_time}$$
+$$Job_{Throughput} = \frac{Events_{total}}{Loop_{time}}$$
 
 * **Memory usage:** Tracked from the `prmon.summary.Derivation.json` file generated during the run.
 
