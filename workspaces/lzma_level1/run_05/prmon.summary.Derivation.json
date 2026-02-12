@@ -1,0 +1,52 @@
+{
+  "Avg": {
+    "nprocs": 2.666,
+    "nthreads": 21.333,
+    "pss": 1890055.0,
+    "rchar": 1401946062.0,
+    "read_bytes": 0.0,
+    "rss": 3877800.0,
+    "rx_bytes": 200861691.0,
+    "rx_packets": 161395.0,
+    "swap": 0.0,
+    "tx_bytes": 23533003.0,
+    "tx_packets": 55475.0,
+    "vmem": 5486398.0,
+    "wchar": 9454195.0,
+    "write_bytes": 6606.0
+  },
+  "HW": {
+    "cpu": {
+      "CPUs": 32,
+      "CoresPerSocket": 16,
+      "ModelName": "Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz",
+      "Sockets": 2,
+      "ThreadsPerCore": 1
+    },
+    "mem": {
+      "MemTotal": 263195532
+    }
+  },
+  "Max": {
+    "nprocs": 4,
+    "nthreads": 46,
+    "pss": 4223257,
+    "rchar": 869206559,
+    "read_bytes": 0,
+    "rss": 9749188,
+    "rx_bytes": 124534249,
+    "rx_packets": 100065,
+    "stime": 6,
+    "swap": 0,
+    "tx_bytes": 14590462,
+    "tx_packets": 34395,
+    "utime": 41,
+    "vmem": 13897744,
+    "wchar": 5861601,
+    "write_bytes": 4096,
+    "wtime": 62
+  },
+  "prmon": {
+    "Version": "3.2.0"
+  }
+}

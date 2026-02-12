@@ -1,0 +1,197 @@
+{
+  "cmdLine": "'/cvmfs/atlas-nightlies.cern.ch/repo/sw/main--dev3LCG_Athena_x86_64-el9-gcc15-opt/2026-02-09T2100/Athena/25.0.52/InstallArea/x86_64-el9-gcc15-opt/bin/Derivation_tf.py' '--inputAODFile' '/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/lzma_level1/data/lzma_ttree_level1.AOD.pool.root' '--athenaMPMergeTargetSize' 'DAOD_*:0' '--multiprocess' 'True' '--postInclude' 'default:AthenaServices.TransformUtils.ExecCondAlgsAtPreFork' '--preExec' 'all:flags.Trigger.doEDMVersionConversion = False;' '--sharedWriter' 'True' '--formats' 'PHYS' '--outputDAODFile' 'DAOD.pool.root' '--multithreadedFileValidation' 'True' '--CA' 'all:True' '--perfmon' 'fullmonmt' '--maxEvents' '10'",
+  "created": "2026-02-12T09:28:54",
+  "executor": [
+    {
+      "asetup": null,
+      "errMsg": "",
+      "exeConfig": {
+        "inputs": [
+          "AOD"
+        ],
+        "outputs": [
+          "DAOD_PHYS"
+        ],
+        "script": "athena.py",
+        "substep": "DerivationFramework"
+      },
+      "logfileReport": {
+        "countSummary": {
+          "CATASTROPHE": 0,
+          "CRITICAL": 0,
+          "DEBUG": 1,
+          "ERROR": 0,
+          "FATAL": 0,
+          "IGNORED": 0,
+          "INFO": 6437,
+          "UNKNOWN": 111,
+          "VERBOSE": 0,
+          "WARNING": 126
+        },
+        "details": {}
+      },
+      "metaData": {},
+      "name": "Derivation",
+      "rc": 0,
+      "statusOK": true,
+      "validation": true
+    }
+  ],
+  "exitAcronym": "OK",
+  "exitCode": 0,
+  "exitMsg": "OK",
+  "exitMsgExtra": "",
+  "files": {
+    "input": [
+      {
+        "dataset": null,
+        "nentries": 60000,
+        "subFiles": [
+          {
+            "file_guid": "DDA2F11F-D15D-C648-85F4-1887AA43EA0B",
+            "name": "lzma_ttree_level1.AOD.pool.root"
+          }
+        ],
+        "type": "AOD"
+      }
+    ],
+    "output": [
+      {
+        "argName": "PHYS",
+        "dataset": null,
+        "subFiles": [
+          {
+            "file_guid": "CA96BB88-07EC-11F1-BF88-F688172E65E7",
+            "file_size": 1019739,
+            "name": "DAOD_PHYS.DAOD.pool.root",
+            "nentries": 10
+          }
+        ],
+        "type": "AOD"
+      }
+    ]
+  },
+  "name": "Derivation_tf",
+  "reportVersion": "2.1.2",
+  "resource": {
+    "dbDataTotal": 3472725,
+    "dbTimeTotal": 1.35,
+    "executor": {
+      "Derivation": {
+        "cpuTime": 57.42,
+        "cpuTimePerWorker": 28.71,
+        "dbData": 3472725,
+        "dbTime": 1.35,
+        "memory": {
+          "Avg": {
+            "nprocs": 2.666,
+            "nthreads": 21.333,
+            "pss": 1890055.0,
+            "rchar": 1401946062.0,
+            "read_bytes": 0.0,
+            "rss": 3877800.0,
+            "rx_bytes": 200861691.0,
+            "rx_packets": 161395.0,
+            "swap": 0.0,
+            "tx_bytes": 23533003.0,
+            "tx_packets": 55475.0,
+            "vmem": 5486398.0,
+            "wchar": 9454195.0,
+            "write_bytes": 6606.0
+          },
+          "HW": {
+            "cpu": {
+              "CPUs": 32,
+              "CoresPerSocket": 16,
+              "ModelName": "Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz",
+              "Sockets": 2,
+              "ThreadsPerCore": 1
+            },
+            "mem": {
+              "MemTotal": 263195532
+            }
+          },
+          "Max": {
+            "nprocs": 4,
+            "nthreads": 46,
+            "pss": 4223257,
+            "rchar": 869206559,
+            "read_bytes": 0,
+            "rss": 9749188,
+            "rx_bytes": 124534249,
+            "rx_packets": 100065,
+            "stime": 6,
+            "swap": 0,
+            "tx_bytes": 14590462,
+            "tx_packets": 34395,
+            "utime": 41,
+            "vmem": 13897744,
+            "wchar": 5861601,
+            "write_bytes": 4096,
+            "wtime": 62
+          },
+          "prmon": {
+            "Version": "3.2.0"
+          }
+        },
+        "mpworkers": 2,
+        "nevents": 10,
+        "postExe": {
+          "cpuTime": 0.38,
+          "wallTime": 1.02
+        },
+        "preExe": {
+          "cpuTime": 0.0,
+          "wallTime": 0.04
+        },
+        "total": {
+          "cpuTime": 57.8,
+          "wallTime": 73.77
+        },
+        "validation": {
+          "cpuTime": 0.0,
+          "wallTime": 0.35
+        },
+        "wallTime": 72.36
+      }
+    },
+    "machine": {
+      "cpu_family": "6",
+      "linux_distribution": [
+        "AlmaLinux",
+        "9.7",
+        "Moss Jungle Cat"
+      ],
+      "model": "106",
+      "model_name": "Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz",
+      "node": "aiatlasbm006.cern.ch",
+      "platform": "Linux-5.14.0-611.5.1.el9_7.x86_64-x86_64-with-glibc2.34"
+    },
+    "transform": {
+      "cpuEfficiency": 0.3864,
+      "cpuPWEfficiency": 0.4404,
+      "cpuTime": 9.32,
+      "cpuTimeTotal": 57.8,
+      "externalCpuTime": 0.6,
+      "inFileValidation": {
+        "cpuTime": 0.17,
+        "wallTime": 4.56
+      },
+      "outFileValidation": {
+        "cpuTime": 0.0,
+        "wallTime": 4.93
+      },
+      "processedEvents": 10,
+      "reportGeneration": {
+        "cpuTime": 0.05,
+        "wallTime": 3.09
+      },
+      "transformSetup": {
+        "cpuTime": 0.0,
+        "wallTime": 0.01
+      },
+      "trfPredata": null,
+      "wallTime": 86.36
+    }
+  }
+}

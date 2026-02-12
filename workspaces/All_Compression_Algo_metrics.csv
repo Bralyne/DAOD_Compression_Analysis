@@ -1,0 +1,5 @@
+Run_ID,Processors,Cores,Algo,AODtype,Level,Total_events,Job_Throughput(events/ms),Job_Read_Throughput(events/ms),VMem_max_GB,RSS_max_GB,PSS_max_GB,DAOD_size_GB
+1,1,2,LZMA,TTree,1,10,0.0006,0.0035,13.25,9.36,4.06,0.0009
+1,1,2,LZMA,TTree,1,10,0.0006,0.0034,13.25,9.37,4.07,0.0009
+1,1,2,LZMA,TTree,1,10,0.0006,0.0033,13.25,9.32,4.04,0.0009
+3,1,2,LZMA,TTree,1,10,0.0006,0.0036,13.24,9.39,4.09,0.0009
