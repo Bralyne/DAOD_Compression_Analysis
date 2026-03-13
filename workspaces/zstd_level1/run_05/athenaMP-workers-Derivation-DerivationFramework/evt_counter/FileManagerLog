@@ -1,8 +1,0 @@
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cmccond/cmccond.000001.conditions.simul.pool.v0000/oflcond.000002.conditions.simul.pool.v0000._0029.pool.root__DQ2-1250194490  ROOT  POOL  READ
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cond08/cond08_mc.000003.gen.COND/cond08_mc.000003.gen.COND._0064.pool.root  ROOT  POOL  READ
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000019.gen.COND/cond09_mc.000019.gen.COND._0010.pool.root  ROOT  POOL  READ
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000114.gen.COND/cond09_mc.000114.gen.COND._0003.pool.root  ROOT  POOL  READ
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000126.gen.COND/cond09_mc.000126.gen.COND._0001.pool.root  ROOT  POOL  READ
-/cvmfs/atlas-condb.cern.ch/repo/conditions/cond12/cond12_data.000029.gen.COND/cond12_data.000029.gen.COND._0001.pool.root  ROOT  POOL  READ
-/eos/home-b/bkamgama/draft/Run_sleep_10000/Compression_QT/DAOD_Compression_Analysis/workspaces/zstd_level1/data/zstd_rntuple_level1.AOD.pool.root  ROOT  POOL  READ
-DAOD_PHYS.DAOD.pool.root  ROOT  POOL  WRITE|CREATE  SHARED
