@@ -2,21 +2,35 @@ import argparse
 import os
 import sys
 import subprocess
-import glob
-import pandas as pd
-from daod_analysis import plotter
-from daod_analysis import fluctuation
-from daod_analysis import clean
-import numpy as np
+import re
 
-    
+def extract_metadata_from_filename(filename):
+    """
+    Extracts the Algorithm to use as the folder name.
+    Example: lzma_ttree_level1.AOD.pool.root -> returns 'LZMA'
+    """
+    try:
+        base = filename.split('.AOD')[0]
+        parts = base.split('_')
+        # The first part is the Algorithm (LZMA, ZSTD, etc.)
+        algo = parts[0].upper()
+        return algo
+    except Exception:
+        return "UNKNOWN"
+
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--workspace", required=True, help="Path to the workspace directory")
-    parser.add_argument("--project", required=False, help="Name of the project")
+    parser = argparse.ArgumentParser(description="DAOD Analysis Tool")
     
-    # ---  choices ----
-    parser.add_argument("--mode", choices=["create", "run_collect", "fluctuation", "clean", "plot"], required=True)
+    
+    parser.add_argument("--workspace", required=True, help="Path to the base directory")
+    parser.add_argument("--mode", choices=["run_collect", "fluctuation", "clean", "plot"], required=True)
+    parser.add_argument("--data_path", help="Path to .pool.root file or directory")
+    parser.add_argument("--csv_path", help="Path to a specific CSV for file size plotting")
+    parser.add_argument("--metrics", action="store_true", help="Plot raw performance metrics")
+    parser.add_argument("--gain_loss", action="store_true", help="Plot performance gain/loss %")
+    parser.add_argument("--impact", action="store_true", help="Plot Size vs Performance impact analysis")
+    
+    
     parser.add_argument("--cores", default="8")
     parser.add_argument("--proc", default="1")
     parser.add_argument("--runs", default="5")
@@ -25,70 +39,59 @@ def main():
     args = parser.parse_args()
     ws_abs = os.path.abspath(args.workspace)
     
-    # --- Project Requirement  ---
-    proj_abs = os.path.join(ws_abs, args.project) if args.project else None
-
-    # --- MODE: CREATE ---
-    if args.mode == "create":
-        if not proj_abs:
-            print(" Error: --project is required for 'create' mode.")
+   
+    if args.mode == "run_collect":
+        if not args.data_path:
+            print(" Error: --mode run_collect requires --data_path")
             sys.exit(1)
-        data_dir = os.path.join(proj_abs, "data")
-        try:
-            os.makedirs(data_dir, exist_ok=True)
-            print(f" Project structure initialized.")
-            print(f" Location: {proj_abs}")
-            print(f" Data folder created: {data_dir}")
-            print(f"\n Next Step: Move your .pool.root files into the data folder using:")
-            print(f"   mv your_file.pool.root {data_dir}/")
-        except Exception as e:
-            print(f" Error creating project: {e}")
+            
+        external_data_dir = os.path.abspath(args.data_path)
+        if not os.path.exists(external_data_dir):
+            print(f"  Error: Path does not exist: {external_data_dir}")
             sys.exit(1)
-
-    # --- MODE: RUN COLLECT ---
-    elif args.mode == "run_collect":
-        if not proj_abs:
-            print(" Error: --project is required for 'run_collect' mode.")
-            sys.exit(1)
-
-        # 1. Environment
-        if "AtlasProject" not in os.environ and "Athena_VERSION" not in os.environ:
-            print(" Error: Athena environment not detected.")
-            print(" 'run_collect' must be run on a machine with ATLAS software.")
-            print(" Did you forget to run: setupATLAS && asetup Athena,main--dev3LCG,latest?")
-            sys.exit(1)
-
-        # 2. Directory 
-        if not os.path.exists(proj_abs):
-            print(f" Error: Project directory '{proj_abs}' not found.")
-            print(f"Please run with '--mode create' first or create: {os.path.join(proj_abs, 'data/')}")
-            sys.exit(1)
-
-        data_dir = os.path.join(proj_abs, "data")
-        if not os.path.exists(data_dir):
-            print(f" Error: Data folder missing at '{data_dir}'.")
-            sys.exit(1)
-
-        # 3. Execute
-        subprocess.run([
-            "bash", "derivation_mp.sh", 
-            data_dir, proj_abs, 
-            args.proc, args.cores, args.runs, args.maxevents
-        ], check=True)
-
-    # ---MODE: FLUCTUATION ---
-    elif args.mode == "fluctuation":
         
+        
+    elif args.mode == "fluctuation":
+        from daod_analysis import fluctuation
         fluctuation.check_fluctuation_and_aggregate(ws_abs)
-    
-    # ---MODE: CLEAN ---
+
+   
     elif args.mode == "clean":
-        print(f" Starting cleanup for workspace: {ws_abs}")
+        from daod_analysis import clean
         clean.clean(ws_abs)
+
     
-    # --- MODE: PLOT ---
     elif args.mode == "plot":
-        plotter.run_bulk_plotting(ws_abs)
+        from daod_analysis import plotter
+        plot_triggered = False
+
+        
+        if args.csv_path or args.data_path:
+            print(" Plotting file sizes...")
+            d_path = os.path.abspath(args.data_path) if args.data_path else None
+            plotter.plotting_filesize(ws_abs, csv_path=args.csv_path, data_path=d_path)
+            plot_triggered = True
+
+        
+        if args.impact:
+            print(" Plotting Size vs Performance Impact Analysis (Per Core)...")
+            plotter.plotting_impact_analysis(ws_abs)
+            plot_triggered = True
+
+       
+        if args.gain_loss:
+            print("Plotting performance GAIN/LOSS vs Reference...")
+            plotter.plotting_gain_loss(ws_abs)
+            plot_triggered = True
+
+       
+        if args.metrics:
+            print("  Plotting raw performance metrics...")
+            plotter.plotting_metrics(ws_abs)
+            plot_triggered = True
+
+        if not plot_triggered:
+            print("  No specific plot requested. Use --impact, --metrics, --gain_loss, or provide data/csv paths.")
 
 if __name__ == "__main__":
     main()

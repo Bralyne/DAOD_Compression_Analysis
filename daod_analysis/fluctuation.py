@@ -1,5 +1,5 @@
 import os
-import glob
+import re 
 import pandas as pd
 import numpy as np
 
@@ -7,76 +7,86 @@ def check_fluctuation_and_aggregate(workspace_path):
     master_name = "All_Compression_Algo_metrics.csv"
     master_path = os.path.join(workspace_path, master_name)
     
-    # Recursive pattern: '**' finds files in any sub-folder depth
-    csv_pattern = os.path.join(workspace_path, "**", "*.csv")
-    
-    # Strict Filter: Only include files that follow the project naming convention
     all_csv_files = []
-    for f in glob.glob(csv_pattern, recursive=True):
-        fname = os.path.basename(f)
-        
-        # Skip technical/summary files
-        if master_name in fname: continue
-        if "fluctuation" in fname: continue
-        if "worker" in fname.lower(): continue 
+    print(f"\n[SCAN] Searching workspace: {workspace_path}")
+
+    # 1. Search recursively for algorithm result CSVs
+    for root, dirs, files in os.walk(workspace_path, followlinks=True):
+        for fname in files:
+            # Skip the master file itself and other non-data CSVs
+            if fname == master_name or "fluctuation" in fname.lower() or "worker" in fname.lower():
+                continue
+            if not fname.endswith(".csv"):
+                continue
             
-        # ONLY include primary data files ( zstd_ttree_level1.csv)
-        if "_level" in fname:
-            all_csv_files.append(f)
+            full_path = os.path.join(root, fname)
+            all_csv_files.append(full_path)
+            print(f" [+] Found: {os.path.relpath(full_path, workspace_path)}")
 
     if not all_csv_files:
-        print(f" No project data found in {workspace_path}.")
+        print(f" [!] No CSV files found to aggregate.")
         return
 
-    print(f" Found {len(all_csv_files)} files. Aggregating into Master CSV...")
-
-    # Aggregate Data
     try:
+        # 2. Aggregate all data
         df_list = [pd.read_csv(f) for f in all_csv_files]
         master_df = pd.concat(df_list, ignore_index=True)
         master_df.to_csv(master_path, index=False)
-        print(f" Master CSV updated: {master_path}")
+        print(f"\n [OK] Aggregated all runs into: {master_path}")
+
+        # 3. Define Grouping Columns (The Conditions)
+        # These columns define a "unique" test setup
+        group_cols = ["Algo", "AODtype", "Level", "Cores", "Processors", "Total_events"]
+        
+        # 4. Identify Numeric Metrics (The Measurements)
+        # We calculate fluctuation ONLY on these
+        numeric_cols = master_df.select_dtypes(include=[np.number]).columns.tolist()
+        
+        # REMOVE setup/metadata columns from the math list
+        for col in group_cols + ['Run_ID']:
+            if col in numeric_cols:
+                numeric_cols.remove(col)
+
+        # 5. Calculate Mean and Std Dev per group
+        # as_index=False ensures our group_cols stay as normal columns
+        mean_df = master_df.groupby(group_cols, as_index=False)[numeric_cols].mean()
+        std_df = master_df.groupby(group_cols, as_index=False)[numeric_cols].std()
+        
+        # 6. Calculate % Fluctuation (Coefficient of Variation)
+        report_df = mean_df.copy()
+        
+        for col in numeric_cols:
+            # (Standard Deviation / Mean) * 100
+            # 1e-9 prevents division by zero if mean is 0
+            report_df[col] = (std_df[col] / (mean_df[col] + 1e-9)) * 100
+        
+        # Round percentages to 2 decimal places for readability
+        report_df = report_df.round(2)
+
+        # 7. Stability Check
+        threshold = 5.0
+        print("\n" + "="*60)
+        print(" GLOBAL STABILITY ANALYSIS (Fluctuation %)")
+        print("="*60)
+        
+        unstable_configs = []
+        for col in numeric_cols:
+            # Find rows where this specific metric exceeds the 5% threshold
+            if (report_df[col] > threshold).any():
+                unstable_configs.append(col)
+        
+        if unstable_configs:
+            print(f" ALERT: High fluctuation (> {threshold}%) detected in:")
+            for metric in unstable_configs:
+                print(f"  -> {metric}")
+        else:
+            print(f" SUCCESS: All configurations are stable (< {threshold}%).")
+        print("="*60)
+
+        # 8. Save the Report
+        report_path = os.path.join(workspace_path, "global_fluctuation_report.csv")
+        report_df.to_csv(report_path, index=False)
+        print(f" Report saved: {report_path}\n")
+
     except Exception as e:
-        print(f" Error during aggregation: {e}")
-        return
-
-    # Statistical Calculation (Coefficient of Variation)
-    group_cols = ["AODtype", "Cores", "Algo", "Processors", "Level"]
-    
-    # Drop non metric columns to keep the report clean
-    drop_cols = ['Run_ID', 'Total_events']
-    calc_df = master_df.drop(columns=[c for c in drop_cols if c in master_df.columns])
-    
-    grouped = calc_df.groupby(group_cols)
-
-    
-    mean_vals = grouped.mean(numeric_only=True)
-    std_vals = grouped.std(numeric_only=True)
-    
-    # Calculate % Fluctuation (CV)
-    # 1e-9 prevents division by zero if mean is 0
-    std_pct = (std_vals / (mean_vals + 1e-9)) * 100
-    std_pct = std_pct.round(2).reset_index()
-
-    # Stability
-    metric_cols = [c for c in std_pct.columns if c not in group_cols]
-    unstable_metrics = []
-
-    for col in metric_cols:
-        # Check if any configuration for this metric fluctuates > 5%
-        if (std_pct[col] > 5).any():
-            unstable_metrics.append(col)
-
-    # Output Results
-    print("-" * 40)
-    if unstable_metrics:
-        print(f"  STABILITY ALERT: High fluctuation (>5%) in: {', '.join(unstable_metrics)}")
-        print(f" RECOMMENDATION: Run 'clean' mode, then 'run_collect' again.")
-    else:
-        print(" SUCCESS: All metrics are stable (< 5% fluctuation).")
-    print("-" * 40)
-
-    # Save the report
-    fluct_csv = os.path.join(workspace_path, "fluctuation.csv")
-    std_pct.to_csv(fluct_csv, index=False)
-    print(f" Stability report saved: {fluct_csv}")
+        print(f" [!] Error during fluctuation analysis: {e}")
