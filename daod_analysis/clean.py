@@ -21,7 +21,7 @@ def clean(workspace_path, noise_threshold=5.0):
         current_subset = group.copy()
         is_stable = False
         
-        # Step-down logic: Start with N rows, then N-1, N-2... down to 2
+        2
         while len(current_subset) >= 2:
             # Calculate fluctuation for all metrics in this subset
             means = current_subset[check_metrics].mean()
@@ -34,7 +34,7 @@ def clean(workspace_path, noise_threshold=5.0):
                 break
             else:
                 # Still noisy: Find and remove the SINGLE worst outlier in this group
-                # We use normalized distance from median to find the "troublemaker" row
+                
                 medians = current_subset[check_metrics].median()
                 # (Value - Median) / Median gives a relative distance
                 distances = ((current_subset[check_metrics] - medians).abs() / (medians + 1e-9)).sum(axis=1)
@@ -46,7 +46,7 @@ def clean(workspace_path, noise_threshold=5.0):
             if len(current_subset) < len(group):
                 print(f" [+] Stabilized {algo}_{aod}_L{lvl}_C{core}: Kept {len(current_subset)}/{len(group)} runs.")
         else:
-            # Even at 2 rows, the data is garbage
+            
             rerun_list.append(f"Algo: {algo}, Type: {aod}, Level: {lvl}, Core: {core}")
 
     # Final Save
