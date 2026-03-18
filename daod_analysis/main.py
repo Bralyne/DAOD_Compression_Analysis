@@ -1,3 +1,19 @@
+# Copyright 2026 Bralyne Matoukam
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+
 import argparse
 import os
 import sys
@@ -12,7 +28,7 @@ def extract_metadata_from_filename(filename):
     try:
         base = filename.split('.AOD')[0]
         parts = base.split('_')
-        # The first part is the Algorithm (LZMA, ZSTD, etc.)
+        # The first part of the file name is the Algorithm (LZMA, ZSTD, etc.)
         algo = parts[0].upper()
         return algo
     except Exception:
