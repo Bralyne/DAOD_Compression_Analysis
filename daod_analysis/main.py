@@ -1,4 +1,4 @@
-# Copyright 2026 Bralyne Matoukam
+# Copyright 2026 DAOD_Compression_Analysis contributors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
