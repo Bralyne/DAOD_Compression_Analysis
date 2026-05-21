@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: ""
-  given-names: ""
+- family-names: "Kamga Matoukam"
+  given-names: "Bralyne Vanessa"
 title: "DAOD_Compression_Analysis"
 version: 1.0.0
 doi: 
-date-released: 
+date-released: 21/05/2026
 url: "https://github.com/Bralyne/DAOD_Compression_Analysis"
