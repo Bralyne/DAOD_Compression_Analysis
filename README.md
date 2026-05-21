@@ -1,5 +1,7 @@
 # ATLAS DAOD Lossless Compression Analysis
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.20324436)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20324436.svg)](https://doi.org/10.5281/zenodo.20324436)
+
 This repository contains the framework and scripts for evaluating lossless compression performance on ATLAS Derived Analysis Object Data (DAOD). The project focuses on benchmarking I/O throughput and storage efficiency using different compression algorithms (including ZSTD, Zlib, LZ4) within the next-generation ROOT **RNTuple** data format.
 
 <br>
